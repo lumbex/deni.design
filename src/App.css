@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.portfolio-preview {
+  background-color: #0C0D10;
+}
+.portfolio-preview grid {}
+.portfolio-preview grid:nth-child(odd) {
+  background-color: black;
+}
+
+
+
