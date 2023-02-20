@@ -10,7 +10,7 @@ function MyHealthProjectPage() {
      sBoardRef = useRef(null), pValidationRef = useRef(null), iDesignRef = useRef(null), pIterationRef = useRef(null), iValidationRef = useRef(null),
      solutionRef = useRef(null), dDecisionsRef = useRef(null), fDesignRef = useRef(null), tNotesRef = useRef(null),
      learnedRef = useRef(null);
-    
+
 
     const handleClick = (ref) => {
         ref.current?.scrollIntoView({behavior: "smooth"})
@@ -20,7 +20,7 @@ function MyHealthProjectPage() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setShowSidebar(window.scrollY > 700)
+            setShowSidebar(window.scrollY > 150)
         };
         window.addEventListener("scroll", handleScroll)
         return() => window.removeEventListener("scroll", handleScroll)
@@ -156,11 +156,7 @@ function MyHealthProjectPage() {
                         </div>
 
                         <div className="product-mockup w-full">
-                            <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675154466/deni.design/project-mockup_d5ziwq.png" alt="project mockup preview" />
-                        </div>
-
-                        <div className="prototype-link flex flex-row-reverse my-6">
-                            <a href="#" target="_blank" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-30 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Link to prototype</a>
+                            <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675736043/deni.design/r-planner/my-health-landing-prototype_mutmdb.png" alt="project mockup preview" />
                         </div>
                     </section>
 
@@ -235,6 +231,8 @@ function MyHealthProjectPage() {
                             <li><span className="font-bold">Medication Calendar</span> - A visual calendar detailing when and how prescribed medications should be used as well as symptoms or signs patients should watch out for </li>
                             <li><span className="font-bold">AR Interactive Wayfinding Indoor Map </span>- an interactive indoor map to help alleviate the stress of the day by helping patients find their way around the hospital whether they are going in for a surgery or running late for a doctor’s appointment.</li>
                         </ul>
+
+                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ftw8glnZitv0ICDESbF75sj%2FDesign-Exercise%3Fpage-id%3D279%253A4633%26node-id%3D331%253A16120%26viewport%3D95%252C-51%252C0.04%26scaling%3Dscale-down%26starting-point-node-id%3D331%253A16120%26show-proto-sidebar%3D1" title="figma prototype" className="border border-solid border-[rgba(0,0,0,0.1)] mb-4" width="800" height="450" allowfullscreen></iframe>
                         
                         {/* Design Process */}
                         <h2 ref={dProcessRef} className="text-3xl mt-4">Design Process</h2>

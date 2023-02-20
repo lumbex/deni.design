@@ -11,6 +11,15 @@
     overflow-x: hidden;
   }
 
+  /* App NavBar */
+  .app-nav-ul{  }
+  .app-nav-ul li{}
+  .app-nav-ul li a.active{
+    color: rgb(26 86 219 / var(--tw-bg-opacity));
+
+  }
+  /* App NavBar END */
+
   /* project-page-sidebar */
 @keyframes wipe-in-right {
     from {

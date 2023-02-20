@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 
 
-function MyHealthProjectPage() {
+function GroceristProjectPage() {
     const bgRef = useRef(null), problemRef = useRef(null), goalRef = useRef(null), dProcessRef = useRef(null),
      uInterviewRef = useRef(null), iStatementRef = useRef(null), hEvaluationRef = useRef(null), 
      pPlanningRef = useRef(null), povRef = useRef(null),
@@ -17,7 +17,7 @@ function MyHealthProjectPage() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setShowSidebar(window.scrollY > 700)
+            setShowSidebar(window.scrollY > 150)
         };
         window.addEventListener("scroll", handleScroll)
         return() => window.removeEventListener("scroll", handleScroll)
@@ -121,11 +121,7 @@ function MyHealthProjectPage() {
                         </div>
 
                         <div className="product-mockup w-full">
-                            <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675154466/deni.design/project-mockup_d5ziwq.png" alt="project mockup preview" />
-                        </div>
-
-                        <div className="prototype-link flex flex-row-reverse my-6">
-                            <a href="#" target="_blank" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-30 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Link to prototype</a>
+                            <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675732551/deni.design/r-planner/grocerist-landing-mockup_ka8ecq.png" alt="project mockup preview" />
                         </div>
                     </section>
 
@@ -170,7 +166,8 @@ function MyHealthProjectPage() {
                         <p className="text-white text-base mb-1">A grocery budgeting app that helps people easily and effectively make lists of items needed for their grocery shopping while being able to make budgets and manage these budgets for each grocery shopping list. </p>
                     </section>
 
-                    <section className="story flex flex-col text-deniblack font-base px-2 md:px-8 overflow-x-hidden">
+                    <section className="story flex flex-col text-deniblack font-base py-4 px-2 md:px-8 overflow-x-hidden">
+                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fv21jGlWBr5pt3DAwebdJcX%2FGrocerist%3Fpage-id%3D13%253A278%26node-id%3D101%253A12397%26viewport%3D449%252C369%252C1%26scaling%3Dscale-down%26starting-point-node-id%3D101%253A12397%26show-proto-sidebar%3D1" title="figma prototype" className="border border-solid border-[rgba(0,0,0,0.1)] mb-4" width="800" height="450" allowfullscreen></iframe>                    
                         {/* Design Process */}
                         <h2 ref={dProcessRef} className="text-3xl mt-4">Design Process</h2>
                         <p className="text-base mb-4">We followed all 5 stages of the design thinking process working on this project. </p>
@@ -393,4 +390,4 @@ function MyHealthProjectPage() {
     );
 }
 
-export default MyHealthProjectPage;
+export default GroceristProjectPage;

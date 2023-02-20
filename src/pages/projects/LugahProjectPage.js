@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 
 
-function MyHealthProjectPage() {
+function LugahProjectPage() {
     const bgRef = useRef(null), problemRef = useRef(null), dStatementRef = useRef(null), mySoluRef = useRef(null), dProcessRef = useRef(null),
      empathizeRef = useRef(null), uResearchRef = useRef(null), uInterviewRef = useRef(null), iStatementRef = useRef(null), hEvaluationRef = useRef(null), 
      defineRef = useRef(null),
@@ -20,7 +20,7 @@ function MyHealthProjectPage() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setShowSidebar(window.scrollY > 700)
+            setShowSidebar(window.scrollY > 150)
         };
         window.addEventListener("scroll", handleScroll)
         return() => window.removeEventListener("scroll", handleScroll)
@@ -215,6 +215,8 @@ function MyHealthProjectPage() {
                             <li><span className="font-bold">Financial advisor</span>-  LugahBot can act as a financial advisor for customers. Providing them with insights to help better save and plan their funds.</li>
                             <li><span className="font-bold">Personalized Recommendations and Product Knowledge</span>-  banking companies can use LugahBot to offer a more personalized offerings to their customers by delivering tailored contents to users based on preferences while also educating customers on new products and services available.</li>
                         </ul>
+
+                        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FJ4tNTCVYBTqAWSBDMMAJ7M%2FLugahbank%3Fpage-id%3D1%253A2%26node-id%3D2%253A107%26viewport%3D1697%252C337%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A107" title="figma prototype" className="border border-solid border-[rgba(0,0,0,0.1)] mb-4" width="800" height="450" allowfullscreen></iframe>
                         
                         {/* Design Process */}
                         <h2 ref={dProcessRef} className="text-3xl mt-4">Design Process</h2>
@@ -466,4 +468,4 @@ function MyHealthProjectPage() {
     );
 }
 
-export default MyHealthProjectPage;
+export default LugahProjectPage;

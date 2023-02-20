@@ -1,8 +1,6 @@
 
 import { useRef } from "react";
 import { ReactComponent as PortfolioPicture } from "./../assets/portfolio-picture.svg";
-import { ReactComponent as BorderlessPaymentMockup } from "./../assets/borderless-payment-mockup.svg";
-import { ReactComponent as RetirementPlannerMockup } from "./../assets/retirement-planner-mockup.svg";
 
 import { Link } from "react-router-dom"
 
@@ -17,8 +15,6 @@ function HomePage() {
 
   return (
     <div className="home-page">
-        
-
         <section className="landing-section bg-gray text-center pt-[30vh] h-[90vh]">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-deniblack md:text-5xl lg:text-6xl">Deni Afonja </h1>
             <p className="mb-6 text-lg font-normal text-deniblack lg:text-xl sm:px-16 xl:px-48 ">Product Designer</p>
@@ -62,7 +58,7 @@ function HomePage() {
                     </div>
                 </Link>
 
-                <Link to="/projects/project-page" className="flex flex-col px-8 pt-8 pb-0 rounded relative w-full bg-[#212324] text-white justify-between">
+                <Link to="/projects/xcel" className="flex flex-col px-8 pt-8 pb-0 rounded relative w-full bg-[#212324] text-white justify-between">
                     <div>
                         <h4 className="text-2xl font-bold mb-6">Bulk Payment Solution</h4>
                         <p className="text-base mb-4">An enterprise payment application for bulk payment processing and pos payments.</p>
@@ -73,7 +69,7 @@ function HomePage() {
                     </div>
 
                     <div className="flex flex-row-reverse">
-                        <BorderlessPaymentMockup className="" />
+                        <img className="" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675439440/deni.design/my-health/borderless-payment-mockup_jdiv2q.svg" alt="xcel mockup preview" />
                     </div>
                 </Link>
 
@@ -92,7 +88,7 @@ function HomePage() {
                     </div>
                 </Link>
 
-                <div className="flex flex-col px-8 pt-8 pb-0 rounded relative w-full bg-[#FAFAFA] text-deniblack justify-between">
+                <Link to="/projects/r-planner" className="flex flex-col px-8 pt-8 pb-0 rounded relative w-full bg-[#FAFAFA] text-deniblack justify-between">
                     <div>
                         <h4 className="text-2xl font-bold mb-6">Retirement Planner</h4>
                         <p className="text-base mb-4">Re-imagine a professional adult’s transition into retirement</p>
@@ -103,9 +99,9 @@ function HomePage() {
                     </div>
 
                     <div className="flex flex-row-reverse">
-                        <RetirementPlannerMockup className="" />
+                        <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675720076/deni.design/retirement-planner-mockup_a99fpv.svg" alt="R planner app" className="" />
                     </div>
-                </div>
+                </Link>
             </div>
             <Link to="/projects/my-health" className="flex flex-col px-8 pt-8 md:pb-0 rounded justify-between w-full bg-[#FAFAFA] text-deniblack mt-6 md:mt-12">
                 <div>
