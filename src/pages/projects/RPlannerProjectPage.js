@@ -118,7 +118,7 @@ function RPlannerProjectPage() {
                             <nav className="flex" aria-label="Breadcrumb">
                             <ol className="inline-flex items-center space-x-1 md:space-x-3">
                                 <li className="inline-flex items-center">
-                                <Link to="/" className="inline-flex items-center text-sm font-medium text-[#717987] hover:text-deniblack">
+                                <Link to="/" className="inline-flex items-center text-xs font-medium text-[#717987] hover:text-deniblack">
                                     <svg className="fill-[#717987] mr-2" width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM17 7L1 7V9L17 9V7Z" fill="#717987"/>
                                     </svg>
@@ -254,7 +254,7 @@ function RPlannerProjectPage() {
                         </ol>  
 
                         <div className={`prototype-link flex-row justify-center my-6 ${viewMore? "hidden" : "flex"}`}>
-                            <button onClick={toggleViewMore} class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-30 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+                            <button onClick={toggleViewMore} class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-30 font-medium rounded-lg text-xs px-5 py-2.5 text-center">
                                 View More Transcripts
                             </button>
                         </div>
@@ -331,7 +331,7 @@ function RPlannerProjectPage() {
                             </ol>
 
                             <div className="prototype-link flex flex-row justify-center my-6">
-                                <button onClick={toggleViewMore} class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-30 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+                                <button onClick={toggleViewMore} class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-30 font-medium rounded-lg text-xs px-5 py-2.5 text-center">
                                     View Less Transcripts
                                 </button>
                             </div>
@@ -421,7 +421,7 @@ function RPlannerProjectPage() {
                         <p className="text-base mb-2">Explored this design solution as an option based on insights discovered during interviews with all users.</p>
 
                         <p className="text-base mb-1">Insight:</p>
-                        <p className="text-sm mb-2">Professionals after working for so long develop a form of attachment to their job as it gives them some form of gratification. Consequently, it’s harder for them to retire and often look for new outlets of finding another gratification by having an “encore job” </p>
+                        <p className="text-xs mb-2">Professionals after working for so long develop a form of attachment to their job as it gives them some form of gratification. Consequently, it’s harder for them to retire and often look for new outlets of finding another gratification by having an “encore job” </p>
 
 
                         <h4 className="text-xl font-bold mb-2">Solution exploration: <span className="text-blue-600">Circle</span></h4>
@@ -435,7 +435,7 @@ function RPlannerProjectPage() {
                         <p className="text-base mb-2">Explored this design solution as an option based on insights discovered during interviews with all users.</p>
 
                         <p className="text-base mb-1">Insight:</p>
-                        <p className="text-sm mb-2">People love to be in control. They primarily feel anxious about retirement because it is leaving certainty for uncertainty. But they are less anxious about retirement when they have an idea of what to expect and are well-prepared for the new phase.</p>
+                        <p className="text-xs mb-2">People love to be in control. They primarily feel anxious about retirement because it is leaving certainty for uncertainty. But they are less anxious about retirement when they have an idea of what to expect and are well-prepared for the new phase.</p>
 
 
                         <h4 ref={solutionRef} className="text-xl font-bold mb-2">Solution exploration: <span className="text-blue-600">Buddy</span></h4>

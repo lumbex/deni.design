@@ -1,8 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/fakt-pro');
+@import url('https://fonts.cdnfonts.com/css/georgia');
+                
 body {
   font-family: 'Fakt Pro', sans-serif;
 }
-
+.alt-font{
+  font-family: 'Georgia', sans-serif;
+}
 .App {
   text-align: center;
 }

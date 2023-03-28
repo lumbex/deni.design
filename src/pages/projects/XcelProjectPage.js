@@ -148,13 +148,13 @@ function RPlannerProjectPage() {
 
                     <section className="overview flex flex-col md:flex-row gap-6 text-deniblack px-2 md:pl-12 md:pr-8">
                         <div className="w-full md:w-1/2 block">
-                            <h4 className="text-xl text-blue-600 mb-2">BACKGROUND</h4>
+                            <h4 className="text-sm font-medium text-[#FB8500] mb-2">BACKGROUND</h4>
                             <h3 className="text-2xl font-bold mb-2">Overview</h3>
                             <p className="text-base mb-2">With the hassle of waiting long queue lines in banks and the lack of an efficient international mobile money transfer service, XCEL recognized a gap to fill to bring financial services to the finger tips of users.</p>
                             <p className="text-base mb-4">XCEL mobile app gives users ability to make quick fund transfers both locally and internationally, top-up their mobile phones, pay bills(cable, electricity, and more) all from the convenience of their mobile phones. All while being able to use the app to reach financial goals through creating of savings plans in the pots feature.</p>
                         </div>
                         <div className="w-full md:w-1/2 block">
-                            <h4 className="text-xl text-blue-600 mb-2">ROLE & DURATION</h4>
+                            <h4 className="text-sm font-medium text-[#FB8500] mb-2">ROLE & DURATION</h4>
                             <h3 className="text-2xl font-bold mb-2">Role</h3>
                             <p className="text-base mb-6">
                                 <span className="font-bold">Sole Product Designer</span> <br /> 

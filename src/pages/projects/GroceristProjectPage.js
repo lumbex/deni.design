@@ -98,7 +98,7 @@ function GroceristProjectPage() {
                             <nav className="flex" aria-label="Breadcrumb">
                             <ol className="inline-flex items-center space-x-1 md:space-x-3">
                                 <li className="inline-flex items-center">
-                                    <Link to="/" className="inline-flex items-center text-sm font-medium text-[#717987] hover:text-deniblack">
+                                    <Link to="/" className="inline-flex items-center text-xs font-medium text-[#717987] hover:text-deniblack">
                                         <svg className="fill-[#717987] mr-2" width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM17 7L1 7V9L17 9V7Z" fill="#717987"/>
                                         </svg>
@@ -127,13 +127,13 @@ function GroceristProjectPage() {
 
                     <section className="overview flex flex-col md:flex-row gap-6 text-deniblack px-2 md:pl-12 md:pr-8">
                         <div className="w-full md:w-1/2 block">
-                            <h4 className="text-xl text-blue-600 mb-2">BACKGROUND</h4>
+                            <h4 className="text-sm font-medium text-[#FB8500] mb-2">BACKGROUND</h4>
                             <h3 className="text-2xl font-bold mb-2">Overview</h3>
                             <p className="text-base mb-4">Grocery shopping can be fun yet so tasking and sometimes, a hassle; with the numerous items people have to pick up from the grocer and a possibility of one forgetting to pick up some. Thereby making multiple trips back to the grocer.  </p>
                             <p className="text-base mb-8">How then can people adequately and effectively plan this part of the lives by being able to keep track of items needed for their grocery shopping.</p>
                         </div>
                         <div className="w-full md:w-1/2 block">
-                            <h4 className="text-xl text-blue-600 mb-2">ROLE & DURATION</h4>
+                            <h4 className="text-sm font-medium text-[#FB8500] mb-2">ROLE & DURATION</h4>
                             <h3 className="text-2xl font-bold mb-2">Role: Sole Product Designer</h3>
                             <p className="text-base mb-6">I was responsible for:  User interface design and Prototyping</p>
 
@@ -162,14 +162,14 @@ function GroceristProjectPage() {
                     </section>
 
                     <section ref={ goalRef } className="problem-callout px-6 py-8 md:px-12 md:py-10 bg-[#5E3200] text-[#ffffff]">
-                        <p className="text-[#FB8500] font-bold text-xl mb-1">The Solution</p>
+                        <p className="text-[#FB8500] font-bold text-xl mb-1 alt-font">The Solution</p>
                         <p className="text-white text-base mb-1">A grocery budgeting app that helps people easily and effectively make lists of items needed for their grocery shopping while being able to make budgets and manage these budgets for each grocery shopping list. </p>
                     </section>
 
                     <section className="story flex flex-col text-deniblack font-base py-4 px-2 md:px-8 overflow-x-hidden">
                         <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fv21jGlWBr5pt3DAwebdJcX%2FGrocerist%3Fpage-id%3D13%253A278%26node-id%3D101%253A12397%26viewport%3D449%252C369%252C1%26scaling%3Dscale-down%26starting-point-node-id%3D101%253A12397%26show-proto-sidebar%3D1" title="figma prototype" className="border border-solid border-[rgba(0,0,0,0.1)] mb-4" width="800" height="450" allowfullscreen></iframe>                    
                         {/* Design Process */}
-                        <h2 ref={dProcessRef} className="text-3xl mt-4">Design Process</h2>
+                        <h2 ref={dProcessRef} className="text-3xl mt-4 alt-font">Design Process</h2>
                         <p className="text-base mb-4">We followed all 5 stages of the design thinking process working on this project. </p>
                         <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699663/deni.design/grocerist/grocerist-design-process_vmw94t.png" alt="design process" />
                         

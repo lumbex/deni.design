@@ -137,7 +137,7 @@ function ProjectPage() {
                             <nav class="flex" aria-label="Breadcrumb">
                             <ol class="inline-flex items-center space-x-1 md:space-x-3">
                                 <li class="inline-flex items-center">
-                                <Link to="/" class="inline-flex items-center text-sm font-medium text-[#717987] hover:text-deniblack">
+                                <Link to="/" class="inline-flex items-center text-xs font-medium text-[#717987] hover:text-deniblack">
                                     <svg className="fill-[#717987] mr-2" width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM17 7L1 7V9L17 9V7Z" fill="#717987"/>
                                     </svg>
@@ -164,7 +164,7 @@ function ProjectPage() {
                         </div>
 
                         <div className="prototype-link flex flex-row-reverse my-6">
-                            <a href="#" target="_blank" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-30 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Link to prototype</a>
+                            <a href="#" target="_blank" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-30 font-medium rounded-lg text-xs px-5 py-2.5 text-center">Link to prototype</a>
                         </div>
                     </section>
 
@@ -311,22 +311,22 @@ function ProjectPage() {
                         <p className="text-base mb-4">Conducted a heuristic evaluation of the website specifically in terms of aesthetic and design, functionality for patients, help and documentation, and navigation. Also analyzed its strengths and weaknesses.</p>
                         
                         <div className="key flex flex-row">
-                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span>Not available</span>
-                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#6FCF97] rounded-full mr-1 flex-shrink-0"></span>Good</span>
-                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#56CCF2] rounded-full mr-1 flex-shrink-0"></span>Decent</span>
-                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#E9CFB1] rounded-full mr-1 flex-shrink-0"></span>Poor</span>
-                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#BDBDBD] rounded-full mr-1 flex-shrink-0"></span>Ineffective</span>
+                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span>Not available</span>
+                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#6FCF97] rounded-full mr-1 flex-shrink-0"></span>Good</span>
+                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#56CCF2] rounded-full mr-1 flex-shrink-0"></span>Decent</span>
+                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#E9CFB1] rounded-full mr-1 flex-shrink-0"></span>Poor</span>
+                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#BDBDBD] rounded-full mr-1 flex-shrink-0"></span>Ineffective</span>
                         </div>
 
                         <div class="table relative overflow-x-hidden md:overflow-x-auto shadow-sm sm:rounded-lg mt-6 mr-0 md:mr-[20%] border rounded">
-                            <table class="w-full text-sm text-left text-gray-500">        
+                            <table class="w-full text-xs text-left text-gray-500">        
                                 <tbody>
                                     <tr class="border-b border-gray-200">
                                         <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap bg-gray-50  ">
                                             Overall aesthetic and design
                                         </th>
                                         <td class="px-6 py-4">
-                                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#56CCF2] rounded-full mr-1 flex-shrink-0"></span></span>
+                                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#56CCF2] rounded-full mr-1 flex-shrink-0"></span></span>
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200">
@@ -334,7 +334,7 @@ function ProjectPage() {
                                             Ease of use
                                         </th>
                                         <td class="px-6 py-4">
-                                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#56CCF2] rounded-full mr-1 flex-shrink-0"></span></span>
+                                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#56CCF2] rounded-full mr-1 flex-shrink-0"></span></span>
                                         </td>
                                     </tr>
                                     
@@ -343,7 +343,7 @@ function ProjectPage() {
                                             Help and documentation
                                         </th>
                                         <td class="px-6 py-4">
-                                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#BDBDBD] rounded-full flex-shrink-0"></span></span>
+                                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#BDBDBD] rounded-full flex-shrink-0"></span></span>
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200">
@@ -351,7 +351,7 @@ function ProjectPage() {
                                             Access to Doctor’s notes    
                                         </th>
                                         <td class="px-6 py-4">
-                                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span></span>
+                                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span></span>
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200">
@@ -359,7 +359,7 @@ function ProjectPage() {
                                             Clear medication table
                                         </th>
                                         <td class="px-6 py-4">
-                                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#BDBDBD] rounded-full flex-shrink-0"></span></span>
+                                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#BDBDBD] rounded-full flex-shrink-0"></span></span>
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200">
@@ -367,7 +367,7 @@ function ProjectPage() {
                                             Ability to share and download past medical history
                                         </th>
                                         <td class="px-6 py-4">
-                                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span></span>
+                                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span></span>
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200">
@@ -375,7 +375,7 @@ function ProjectPage() {
                                             Shared information outside SJHH care team
                                         </th>
                                         <td class="px-6 py-4">
-                                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span></span>
+                                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span></span>
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200">
@@ -383,7 +383,7 @@ function ProjectPage() {
                                             Multi-lingual support
                                         </th>
                                         <td class="px-6 py-4">
-                                            <span class="flex items-center text-sm font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span></span>
+                                            <span class="flex items-center text-xs font-base mr-4"><span class="flex w-2.5 h-2.5 bg-[#EB5757] rounded-full mr-1 flex-shrink-0"></span></span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -470,14 +470,14 @@ function ProjectPage() {
                         <p className="text-base mb-4"><span className="font-bold">Doctor’s Notes:</span> on selecting a doctor’s notes from the table of notes above (see the picture before), a user can view the detailed doctor’s notes from a visit. The doctor’s note includes information discussed during the patient’s visit, medications prescribed, and a comment section for patients to drop questions that might have after going through the notes they could not ask during the earlier visit. </p>
                         
                         <h3 ref={pIterationRef} className="text-xl font-bold mb-2">Prototype iteration</h3>
-                        <p className="text-sm mb-4"> We tested the above prototype with Sahar to validate the idea and allow for refinements that might help make the solution more meaningful to the patients.<br/>We made changes to our prototype based on the feedback and new insights gathered from testing with Sahar </p>
-                        <p className="text-sm text-blue-600 mb-4"> New Insight </p>
-                        <p className="text-sm text-deni-black mb-4"> Many patients do not know what to expect or what medications to discontinue or continue as well as symptoms to look out for post-surgery. Consequently, many patients tend to overlook symptoms that show up post-surgery which eventually cause more harm. </p>
+                        <p className="text-xs mb-4"> We tested the above prototype with Sahar to validate the idea and allow for refinements that might help make the solution more meaningful to the patients.<br/>We made changes to our prototype based on the feedback and new insights gathered from testing with Sahar </p>
+                        <p className="text-xs text-blue-600 mb-4"> New Insight </p>
+                        <p className="text-xs text-deni-black mb-4"> Many patients do not know what to expect or what medications to discontinue or continue as well as symptoms to look out for post-surgery. Consequently, many patients tend to overlook symptoms that show up post-surgery which eventually cause more harm. </p>
 
-                        <p className="text-sm text-blue-600 mb-4"> Redesigned doctor’s notes page </p>
-                        <p className="text-sm text-deni-black mb-4"><span className="font-bold">Before:</span> under the current medication, the prescribed doctor’s medications were listed according to names with little instructions on when to use them. </p>
+                        <p className="text-xs text-blue-600 mb-4"> Redesigned doctor’s notes page </p>
+                        <p className="text-xs text-deni-black mb-4"><span className="font-bold">Before:</span> under the current medication, the prescribed doctor’s medications were listed according to names with little instructions on when to use them. </p>
                         <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291912/deni.design/my-health/doctore-note-preferences-4_xtsj2j.png" alt="Doctors notes prototype 3" />
-                        <p className="text-sm text-deni-black mb-4"><span className="font-bold">After:</span> After the new insights we discovered, we redesigned the Current Medication section to be more detailed and presented the medication in form of a calendar with more visuals and use of plain, easy language to help patients understand what is to be done with each medication and what the medication looks like. </p>
+                        <p className="text-xs text-deni-black mb-4"><span className="font-bold">After:</span> After the new insights we discovered, we redesigned the Current Medication section to be more detailed and presented the medication in form of a calendar with more visuals and use of plain, easy language to help patients understand what is to be done with each medication and what the medication looks like. </p>
 
                         <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesign_2_kd5ind.png" alt="Doctors notes prototype 4" />
                         <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesing_kzcm2m.png" alt="Doctors notes prototype 5" />
@@ -523,10 +523,10 @@ function ProjectPage() {
                         <p className="text-base mb-4"><span className="font-bold">How it will work:</span> The indoor map is sent as a link or QR code embedded in appointment reminder messages sent a day before the patient’s appointment. </p>
                     
                         <h3 ref={tNotesRef} className="text-2xl font-bold text-blue-600 mt-4 mb-2">Testing: notes from testing with Sahar</h3>
-                        <p className="text-sm mb-4">Sahar felt comfortable walking through the prototype. She particularly liked the terminologies section included in the doctor's notes. She thought it was a good way to help patients and doctors clarify meanings of terminologies and acronyms used during conversations. </p>
-                        <p className="text-sm mb-4">The Medication calendar feature also stood out to her. It was easy for her to read and understand what each medication was. She mentioned that the use of plain language was helpful to her and reckons it will be helpful for people with language barriers so they can easily copy the words and get the verbatim translation in a translation tool. Also mentioned was the visual display and short description of what each medication looked like. Seeing that, she thought it would give her a thorough differentiation between all the medications she had to use. She nodded her head at intervals when she understood what was on each screen on the prototype. </p>
+                        <p className="text-xs mb-4">Sahar felt comfortable walking through the prototype. She particularly liked the terminologies section included in the doctor's notes. She thought it was a good way to help patients and doctors clarify meanings of terminologies and acronyms used during conversations. </p>
+                        <p className="text-xs mb-4">The Medication calendar feature also stood out to her. It was easy for her to read and understand what each medication was. She mentioned that the use of plain language was helpful to her and reckons it will be helpful for people with language barriers so they can easily copy the words and get the verbatim translation in a translation tool. Also mentioned was the visual display and short description of what each medication looked like. Seeing that, she thought it would give her a thorough differentiation between all the medications she had to use. She nodded her head at intervals when she understood what was on each screen on the prototype. </p>
 
-                        <p className="text-sm text-gray-600 mb-4"> “... there’s this aftercare summary piece that is missing. I want a summary; this is the aftercare summary I would love. I love this idea, but the one challenging piece is getting the medical professionals onboard to use it. But i think it’s too valuable for them to not buy into this because it is an incredibly valuable tool you are proposing. Especially the key terminology - I think that’s brilliant.” Sahar </p>
+                        <p className="text-xs text-gray-600 mb-4"> “... there’s this aftercare summary piece that is missing. I want a summary; this is the aftercare summary I would love. I love this idea, but the one challenging piece is getting the medical professionals onboard to use it. But i think it’s too valuable for them to not buy into this because it is an incredibly valuable tool you are proposing. Especially the key terminology - I think that’s brilliant.” Sahar </p>
 
                         <h3 ref={learnedRef} className="text-2xl font-bold text-blue-600 mt-4 ">Reflection: what I learned</h3>
                         <ul class="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-2 mb-8 flex flex-col gap-4">
@@ -541,7 +541,7 @@ function ProjectPage() {
                         <h4 className="text-xl text-blue-600 mb-0">d</h4>
                         <p className="text-base mb-4">  </p>
                         <p className="text-base mb-4"><span className="font-bold"></span>  </p>
-                        <p className="text-sm mb-4">  </p>
+                        <p className="text-xs mb-4">  </p>
 
                         <img className="my-6 md:mr-[20%]" src="" alt="POVs" />
                         <ul class="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
