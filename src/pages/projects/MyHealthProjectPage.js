@@ -31,9 +31,9 @@ function MyHealthProjectPage() {
 
             <aside id="default-sidebar" className={ `${showSidebar? "wipe-in-right block": "hidden"} project-sidebar  fixed top-14 left-0 z-20 w-80 h-screen transition-transform -translate-x-full sm:translate-x-0 pl-8`} aria-label="Sidebar">
                 <div className="h-[92vh] px-3 py-4 overflow-y-auto text-left">
-                    <ul className="space-y-2 text-left">
+                    <ul className="space-y-0 text-left">
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Introduction
                             </div>
 
@@ -47,7 +47,7 @@ function MyHealthProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Empathise
                             </div>
 
@@ -59,7 +59,7 @@ function MyHealthProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Define
                             </div>
 
@@ -71,7 +71,7 @@ function MyHealthProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Ideate 
                             </div>
 
@@ -83,7 +83,7 @@ function MyHealthProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Prototype and validation
                             </div>
                             
@@ -94,7 +94,7 @@ function MyHealthProjectPage() {
                             </ul>
                         </li>
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Solution 
                             </div>
                             
@@ -104,7 +104,7 @@ function MyHealthProjectPage() {
                             </ul>
                         </li>
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Testing
                             </div>
 
@@ -388,9 +388,9 @@ function MyHealthProjectPage() {
                         {/* Empathy Maps */}
                         <h2 ref={eMapsRef} className="text-3xl mt-8 alt-font">Empathy Maps</h2>
                         <p className="text-base mb-4">After the user interviews, we compiled the information and insights discovered, and organized them using Empathy maps for each user.</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675257944/deni.design/my-health/Empathy_Map_-_A_an5kdp.png" alt="Empathy Map" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675257943/deni.design/my-health/Empathy_Map_-_B_joun4q.png" alt="Empathy Map" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675257943/deni.design/my-health/Empathy_Map_-_C_xsizdi.png" alt="Empathy Map" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675257944/deni.design/my-health/Empathy_Map_-_A_an5kdp.png" alt="Empathy Map" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675257943/deni.design/my-health/Empathy_Map_-_B_joun4q.png" alt="Empathy Map" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675257943/deni.design/my-health/Empathy_Map_-_C_xsizdi.png" alt="Empathy Map" />
 
 
                         {/* Define */}
@@ -398,8 +398,8 @@ function MyHealthProjectPage() {
 
                         <h3 ref={personaRef} className="text-xl font-bold mb-2 alt-font">Persona</h3>
                         <p className="text-base mb-8">We created two personas that encompassed who our users are both mainstream and extreme users. </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291913/deni.design/my-health/Persona_-_mainstream_huyziw.png" alt="Persona Mainstream" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291909/deni.design/my-health/Persona_-_disabilty_mv4s8f.png" alt="Persona Disablility" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291913/deni.design/my-health/Persona_-_mainstream_huyziw.png" alt="Persona Mainstream" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291909/deni.design/my-health/Persona_-_disabilty_mv4s8f.png" alt="Persona Disablility" />
                         
 
                         <h3 ref={povRef} className="text-xl font-bold mb-2 alt-font">Problem Statement</h3>
@@ -411,13 +411,13 @@ function MyHealthProjectPage() {
                             <li>Users who are not “tech savvy”: users who do not like to use digital technologies due the perceived complication around the use thereof</li>
                             <li>Users who are language impaired: cannot communicate or understand the default language of most applications which is usually English.</li>
                         </ul>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291909/deni.design/my-health/POVS_1_av6e1n.png" alt="POVs" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291909/deni.design/my-health/POVS_1_av6e1n.png" alt="POVs" />
                         
 
                         <h3 ref={ideateRef} className="text-xl font-bold mb-2 alt-font">Ideate</h3>
                         <p className="text-base mb-4">To help brainstorm ideas, we turned the POVs from the define stage into HMW statements and branched off ideas using the HMW questions. </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291909/deni.design/my-health/my-health-ideate-1_y9ubb3.png" alt="ideate" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291909/deni.design/my-health/my-health-ideate-2_qlgb6k.png" alt="ideate" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291909/deni.design/my-health/my-health-ideate-1_y9ubb3.png" alt="ideate" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291909/deni.design/my-health/my-health-ideate-2_qlgb6k.png" alt="ideate" />
                         
                         <h3 ref={bStormingRef} className="text-xl font-bold mb-2 alt-font">Ideas from brainstorming</h3>
                         <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
@@ -440,9 +440,9 @@ function MyHealthProjectPage() {
                         
                         <h3 ref={sBoardRef} className="text-xl font-bold mb-2 alt-font">Storyboard</h3>
                         <p className="text-base mb-4"><span className="font-bold">Scenario:</span> Current end-end aftercare health learning experience for a knee replacement surgery </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/my-health-toon-1_btsqzf.png" alt="Scenario 1" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/my-health-toon-1_btsqzf.png" alt="Scenario 1" />
                         <p className="text-base mb-4"><span className="font-bold">Scenario:</span>  Future reimagined end-end aftercare health learning experience for a knee replacement surgery</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291910/deni.design/my-health/my-health-toon-last_jw6ltj.png" alt="Scenario 2" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291910/deni.design/my-health/my-health-toon-last_jw6ltj.png" alt="Scenario 2" />
 
                         
 
@@ -453,14 +453,14 @@ function MyHealthProjectPage() {
                         <p className="text-base mb-4"> Due to time constraints, we went straight to hi-fi after fleshing out the major features and touch points of the application and using the storyboard to visualize what we want from the user experience.</p>
                         
                         <h3 ref={iDesignRef} className="text-xl font-bold mb-2">Initial prototype</h3>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291910/deni.design/my-health/my-health-onboarding_ylqogc.png" alt="onboarding prototype" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291910/deni.design/my-health/my-health-onboarding_ylqogc.png" alt="onboarding prototype" />
                         <p className="text-base mb-4"><span className="font-bold">Preferences Onboarding Screen:</span> serves to accommodate selected preferences patients might need, including those related to languages and enables the screen texts to be read out to </p>
 
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291910/deni.design/my-health/my-health-dashboard_q3n3p4.png" alt="dashboard prototype" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291910/deni.design/my-health/my-health-dashboard_q3n3p4.png" alt="dashboard prototype" />
                         <p className="text-base mb-4"><span className="font-bold">Home/Dashboard:</span> this is the first landing page for patients which shows the most recent activities on their accounts, their prescriptions, recent doctor visits, attached notes, and a calendar to preview their appointments at a glance </p>
                         
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291910/deni.design/my-health/doctors-note-preferences-3_mjxzqx.png" alt="Doctors notes prototype 1" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesign_3_orfgzi.png" alt="Doctors notes prototype 2" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291910/deni.design/my-health/doctors-note-preferences-3_mjxzqx.png" alt="Doctors notes prototype 1" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesign_3_orfgzi.png" alt="Doctors notes prototype 2" />
                         <p className="text-base mb-4"><span className="font-bold">Doctor’s Notes:</span> on selecting a doctor’s notes from the table of notes above (see the picture before), a user can view the detailed doctor’s notes from a visit. The doctor’s note includes information discussed during the patient’s visit, medications prescribed, and a comment section for patients to drop questions that might have after going through the notes they could not ask during the earlier visit. </p>
                         
                         <h3 ref={pIterationRef} className="text-xl font-bold mb-2 alt-font">Prototype iteration</h3>
@@ -470,11 +470,11 @@ function MyHealthProjectPage() {
 
                         <p className="text-xs text-blue-600 mb-4"> Redesigned doctor’s notes page </p>
                         <p className="text-xs text-deni-black mb-4"><span className="font-bold">Before:</span> under the current medication, the prescribed doctor’s medications were listed according to names with little instructions on when to use them. </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291912/deni.design/my-health/doctore-note-preferences-4_xtsj2j.png" alt="Doctors notes prototype 3" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291912/deni.design/my-health/doctore-note-preferences-4_xtsj2j.png" alt="Doctors notes prototype 3" />
                         <p className="text-xs text-deni-black mb-4"><span className="font-bold">After:</span> After the new insights we discovered, we redesigned the Current Medication section to be more detailed and presented the medication in form of a calendar with more visuals and use of plain, easy language to help patients understand what is to be done with each medication and what the medication looks like. </p>
 
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesign_2_kd5ind.png" alt="Doctors notes prototype 4" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesing_kzcm2m.png" alt="Doctors notes prototype 5" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesign_2_kd5ind.png" alt="Doctors notes prototype 4" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesing_kzcm2m.png" alt="Doctors notes prototype 5" />
 
                         
                         <h3 ref={iValidationRef} className="text-xl font-bold mb-2">Idea Validation: feedback from initial testing with Sahar (user)</h3>
@@ -499,18 +499,18 @@ function MyHealthProjectPage() {
                         {/* Solution */}
                         <h2 ref={solutionRef} className="text-3xl mt-4 alt-font"><span className="font-bold">Solution:</span> MyHealth</h2>
                         <p className="text-base mb-4">MyHealth is an end-to-end solution that focuses on involving patients in their healthcare journey by empowering them with the information they need to know as it relates to their individual medical situations or needs via an online platform. </p>
-                        <img ref={fDesignRef} className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesign_2_kd5ind.png" alt="Solution screen 1" />
+                        <img ref={fDesignRef} className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291911/deni.design/my-health/redesign_2_kd5ind.png" alt="Solution screen 1" />
                         <p className="text-base mb-4"><span className="font-bold">Doctor’s Notes:</span> After the new insights we discovered, we redesigned the doctor’s notes page to include a customizable surgery information guide that helps patients understand what happens during a typical surgery, in this case, knee replacement surgery, and the next steps after their procedure. </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291912/deni.design/my-health/Preferences_2_idkbpy.png" alt="Solution screen 2" />                
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291914/deni.design/my-health/Preferences_3_nuny5j.png" alt="Solution screen 3" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291912/deni.design/my-health/Preferences_4_gtfqgm.png" alt="Solution screen 4" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291914/deni.design/my-health/Preferences_5_qs6mgm.png" alt="Solution screen 5" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291913/deni.design/my-health/Preferences_6_karzgw.png" alt="Solution screen 6" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291914/deni.design/my-health/Preferences_7_laszd2.png" alt="Solution screen 7" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291913/deni.design/my-health/Preferences_8_ti1x0l.png" alt="Solution screen 8" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291912/deni.design/my-health/Preferences_2_idkbpy.png" alt="Solution screen 2" />                
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291914/deni.design/my-health/Preferences_3_nuny5j.png" alt="Solution screen 3" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291912/deni.design/my-health/Preferences_4_gtfqgm.png" alt="Solution screen 4" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291914/deni.design/my-health/Preferences_5_qs6mgm.png" alt="Solution screen 5" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291913/deni.design/my-health/Preferences_6_karzgw.png" alt="Solution screen 6" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291914/deni.design/my-health/Preferences_7_laszd2.png" alt="Solution screen 7" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291913/deni.design/my-health/Preferences_8_ti1x0l.png" alt="Solution screen 8" />
                         <p className="text-base mb-4"><span className="font-bold">Pre-surgery guide:</span> This guide helps patients be expert about their health; particularly when they have an upcoming surgery. This guide aims to detail to the patient what typically happens during the surgery. That way, patients understand fully well what happens going into surgery. The guide employ the use of objects as an alternative representation of body part so patients aren’t terrified with the visual representation of the guide. <br />The guide can be further improved by detailing how Doctors prepare for a patient’s surgery; to further instil a sense of trust between the patient and the care team. </p>
                         
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291916/deni.design/my-health/my-health-wayfinder_z62u0d.png" alt="AR wayfinder" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291916/deni.design/my-health/my-health-wayfinder_z62u0d.png" alt="AR wayfinder" />
                         <h3 className="text-xl font-bold mb-2">AR Interactive Wayfinder </h3>
                         <p className="text-base mb-4">This serves as a hospital indoor map using real scenarios and pictures of the hospital layout to help patients find their way around the hospital, especially on the day of their surgery appointment and even regular visits. This is an approach to helping patients feel more in control. Moreso, the hospital should not feel like a maze to patients as this will only make already anxious patients even more anxious. </p>
                         <p className="text-base mb-4">The highlighted blue area shows the path to walk through, the flashing arrow uides users marking out walk path, turning directions, and doors/elevators to go through. </p>

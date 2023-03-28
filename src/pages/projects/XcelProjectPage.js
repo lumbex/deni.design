@@ -36,9 +36,9 @@ function RPlannerProjectPage() {
 
             <aside id="default-sidebar" className={ `${showSidebar? "wipe-in-right block": "hidden"} project-sidebar  fixed top-14 left-0 z-20 w-80 h-screen transition-transform -translate-x-full sm:translate-x-0 pl-8`} aria-label="Sidebar">
                 <div className="h-[92vh] px-3 py-4 overflow-y-auto text-left">
-                    <ul className="space-y-2 text-left">
+                    <ul className="space-y-0 text-left">
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Introduction
                             </div>
 
@@ -51,7 +51,7 @@ function RPlannerProjectPage() {
                         </li>
 
                         {/* <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Empathise
                             </div>
 
@@ -63,7 +63,7 @@ function RPlannerProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Define
                             </div>
 
@@ -75,7 +75,7 @@ function RPlannerProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Ideate 
                             </div>
 
@@ -87,7 +87,7 @@ function RPlannerProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Prototype and validation
                             </div>
                             
@@ -97,7 +97,7 @@ function RPlannerProjectPage() {
                             </ul>
                         </li>
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Result and Reflection 
                             </div>
                             

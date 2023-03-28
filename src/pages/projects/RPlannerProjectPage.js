@@ -36,9 +36,9 @@ function RPlannerProjectPage() {
 
             <aside id="default-sidebar" className={ `${showSidebar? "wipe-in-right block": "hidden"} project-sidebar  fixed top-14 left-0 z-20 w-80 h-screen transition-transform -translate-x-full sm:translate-x-0 pl-8`} aria-label="Sidebar">
                 <div className="h-[92vh] px-3 py-4 overflow-y-auto text-left">
-                    <ul className="space-y-2 text-left">
+                    <ul className="space-y-0 text-left">
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Introduction
                             </div>
 
@@ -51,7 +51,7 @@ function RPlannerProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Empathise
                             </div>
 
@@ -63,7 +63,7 @@ function RPlannerProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Define
                             </div>
 
@@ -75,7 +75,7 @@ function RPlannerProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Ideate 
                             </div>
 
@@ -87,7 +87,7 @@ function RPlannerProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Prototype and validation
                             </div>
                             
@@ -97,7 +97,7 @@ function RPlannerProjectPage() {
                             </ul>
                         </li>
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Result and Reflection 
                             </div>
                             
@@ -183,9 +183,9 @@ function RPlannerProjectPage() {
                             Reimagine an older adult(a Professional)’s early stage experience while preparing to transition to retirement
                         </p>
 
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675732550/deni.design/r-planner/the-Solution1_vkykml.png" alt="solution-1" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675732550/deni.design/r-planner/the-Solution1_vkykml.png" alt="solution-1" />
 
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675732550/deni.design/r-planner/the-Solution2_mepzq2.png" alt="solution-2" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675732550/deni.design/r-planner/the-Solution2_mepzq2.png" alt="solution-2" />
 
 
                         <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FJ4tNTCVYBTqAWSBDMMAJ7M%2FLugahbank%3Fpage-id%3D1%253A2%26node-id%3D2%253A107%26viewport%3D1697%252C337%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A107" title="figma prototype" className="border border-solid border-[rgba(0,0,0,0.1)] mb-4" width="800" height="450" allowfullscreen></iframe>
@@ -346,32 +346,32 @@ function RPlannerProjectPage() {
 
                         <h3 ref={eMapsRef} className="text-xl font-bold mb-2">Empathy Maps</h3>
                         <p className="text-base mb-4">After the user interviews, I compiled the information and insights discovered, and organized them using Empathy maps for each user. </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724808/deni.design/r-planner/Empathy_Map_-_A_w3y8sj.png" alt="akitite" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724807/deni.design/r-planner/Empathy_Map_-_b_xnwxuc.png" alt="jay" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724807/deni.design/r-planner/Empathy_Map_-_c_stftkk.png" alt="philip" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724808/deni.design/r-planner/Empathy_Map_-_A_w3y8sj.png" alt="akitite" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724807/deni.design/r-planner/Empathy_Map_-_b_xnwxuc.png" alt="jay" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724807/deni.design/r-planner/Empathy_Map_-_c_stftkk.png" alt="philip" />
 
                         <h2 ref={personaRef} className="text-3xl mt-2">Define</h2>
                         <p className="text-base mb-4">Created a persona to put more perspective into the type of user I was solving this challenge for and to understand more about the user's challenges. After this, I framed the user scenarios in form of a problem statement to better understand their challenges from their point of view.</p>
                         <h3 className="text-xl font-bold mb-2">Persona</h3>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724805/deni.design/r-planner/Persona_-_mainstream_h9b7xo.png" alt="POVs" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724805/deni.design/r-planner/Persona_-_mainstream_h9b7xo.png" alt="POVs" />
 
                         <h3 ref={sBoardRef} className="text-xl font-bold mb-2">Storyboard</h3>
                         <p className="text-base mb-4">I created a storyboard to visualize the user’s current scenario before going on to ideate on possible solutions</p>
                         <h4 className="text-xl text-blue-600 mb-0">Current User Scenario</h4>
 
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724806/deni.design/r-planner/Storyboard__current_1_ioso1h.png" alt="POVs" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724806/deni.design/r-planner/Storyboard__current_1_ioso1h.png" alt="POVs" />
 
                         <h4 ref={povRef} className="text-xl font-bold mb-0">Problem statement</h4>
                         <p className="text-base mb-4"> Using the storyboard and insights gathered from the user interviews, I created actionable problem statements based on a deeper understanding of the user needs and insights learnt about them. </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724805/deni.design/r-planner/POVss_1_gon72q.png" alt="POVs" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724805/deni.design/r-planner/POVss_1_gon72q.png" alt="POVs" />
 
                         <h2 ref={hmwsRef} className="text-3xl mt-4">Ideate</h2>
                         <p className="text-base mb-4"> To better help me brainstorm ideas, I framed the user challenges using the HMW questions and branched out ideas that could answer these questions. </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724804/deni.design/r-planner/hmw_dzqkpr.png" alt="ideate" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724804/deni.design/r-planner/hmw_dzqkpr.png" alt="ideate" />
 
                         <h2 ref={bStormingRef} className="text-3xl mt-4">Brainstorming Ideas</h2>
                         <p className="text-base mb-4">To help me brainstorm ideas, I categorized the areas of concern of the users I interviewed as it relates to transitioning into the retirement phase. </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724805/deni.design/r-planner/Dark_Green_Simple_Company_Business_Idea_Mindmap_1_u89n32.png" alt="brainstorming ideas" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724805/deni.design/r-planner/Dark_Green_Simple_Company_Business_Idea_Mindmap_1_u89n32.png" alt="brainstorming ideas" />
 
 
                         <h4 ref={ideaRef} className="text-xl font-bold mb-0">Ideas</h4>
@@ -413,7 +413,7 @@ function RPlannerProjectPage() {
 
                         <h3 className="text-xl mb-2 text-blue-600">Reimagined Experience: </h3>
                         <p className="text-base mb-2">Extreme user case: the future experience of a professional going into retirement</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724803/deni.design/r-planner/Storyboard__NEW_znqtvg.png" alt="storyboard" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724803/deni.design/r-planner/Storyboard__NEW_znqtvg.png" alt="storyboard" />
 
 
                         <h3 className="text-2xl font-bold mb-2">Solutions: selected ideas</h3>
@@ -426,7 +426,7 @@ function RPlannerProjectPage() {
 
                         <h4 className="text-xl font-bold mb-2">Solution exploration: <span className="text-blue-600">Circle</span></h4>
                         <p className="text-base mb-2">Circle gives professionals who are subject matter experts a way to stay relevant and feel like they are still making contributions to their jobs while also using this as an opportunity to give back or create new outlets for themselves to explore mentorship as a side career and stay relevant with their experiences through knowledge sharing</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724805/deni.design/r-planner/Circle_1_xnfyy2.png" alt="circle screens" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724805/deni.design/r-planner/Circle_1_xnfyy2.png" alt="circle screens" />
                         
                         <p className="text-base mb-4"><span className="font-bold text-xl">How It Works</span>: Professionals download the app or it can be integrated into their previous company’s communication platform. Retired professionals are matched with young employees in the company in their line of work, based on calendar availability. Once a retired professional confirm his availability, a link is shared and the meeting is added to both parties’ calendar for a reminder on the set day of the meeting.</p>
 
@@ -440,17 +440,17 @@ function RPlannerProjectPage() {
 
                         <h4 ref={solutionRef} className="text-xl font-bold mb-2">Solution exploration: <span className="text-blue-600">Buddy</span></h4>
                         <p className="text-base mb-2">Buddy is a retired professional’s companion. It’s a retired professional's first step in getting prepared to make the transition to retirement. It puts more visuals into the user’s retirement perspective, helps the user envision what their main retirement goals would be like, draw up a savings plan for accountability financially and also “introduces” users to other retired users on the platform to keep them socially engaged and open to new connections. </p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Buddy_1_frlbtj.png" alt="mood log" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Buddy_1_frlbtj.png" alt="mood log" />
                         
 
                         <h3 className="text-xl font-bold text-blue-600 mb-2">Features</h3>
                         <p className="text-base mb-2"><span className="font-bold">Home Page</span>: Users can log their daily moods each day of the week by tapping on each emoji as it applies to how they are feeling on a certain day. Basically helps them mentally to acknowledge their emotions, especially during the initial phase of retirement.</p>
                         <p className="text-base mb-2"><span className="font-bold">Buddy</span>: retired people love to talk about their past experiences and past stories. Why not share that with fellow retirees? Users can participate in weekly “intros” during which they get introduced to a particular retired user and have access to explore communication with a user they are matched with over the course of the week. The conversation occurs outside the app and can be explored further in real life.</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Buddy_2_oo5dnw.png" alt="pots" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Buddy_2_oo5dnw.png" alt="pots" />
                         
                         <p className="text-base mb-2"><span className="font-bold">Pots</span>: Finances are some of the constraints when it comes to going into retirement. Although, most people depend on their pension only for some to find out they should have had other savings plans going into retirement to afford certain lifestyles. Hence, Pots. Pots can be used by users to create yearly financial retirement side savings plans and be accountable as they contribute to their virtual pots by ticking off days in which they save on the app.</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Buddy_3_g80t3s.png" alt="vision board" />
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Buddy_4_z7kk72.png" alt="family" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Buddy_3_g80t3s.png" alt="vision board" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Buddy_4_z7kk72.png" alt="family" />
                         <p className="text-base mb-2"><span className="font-bold">Vision Board</span>: What would it be like if adults making the transition into retirement could visualize what their retirement goals might be and plan accordingly? Users get to select targeted areas of their lives they will like to focus on during retirement and a visual representation of what that might look like is formed for them to put visual perspective into this new phase.</p>
 
                         <h3 ref={feedbackRef} className="text-xl font-bold mb-2">Feedback</h3>
@@ -477,11 +477,11 @@ I like that the platform is also a way to help professionals give back and share
                         <p className="text-base text-blue-600 mb-1">Redesigned Vision Board Screens</p>
                         <p className="text-base mb-1">Added the ability to download and set goals for each category listed on the vision board</p>
                     
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Design_iteration_zi6esx.png" alt="vison board" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724802/deni.design/r-planner/Design_iteration_zi6esx.png" alt="vison board" />
 
                         <p className="text-base text-blue-600 mb-1">Redesigned Emoji Log on Home Screen</p>
                         <p className="text-base mb-1">Ability to see emoji log as weekly calendar view and improved visual presentation</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724801/deni.design/r-planner/emoji_app_screen_yrhaqf.png" alt="buddy request" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724801/deni.design/r-planner/emoji_app_screen_yrhaqf.png" alt="buddy request" />
 
                         
 

@@ -28,9 +28,9 @@ function GroceristProjectPage() {
 
             <aside id="default-sidebar" className={ `${showSidebar? "wipe-in-right block": "hidden"} project-sidebar  fixed top-14 left-0 z-20 w-80 h-screen transition-transform -translate-x-full sm:translate-x-0 pl-8`} aria-label="Sidebar">
                 <div className="h-[92vh] px-3 py-4 overflow-y-auto text-left">
-                    <ul className="space-y-2 text-left">
+                    <ul className="space-y-0 text-left">
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-0 text-sm font-normal w-full text-left">
                                 Introduction
                             </div>
 
@@ -43,7 +43,7 @@ function GroceristProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Empathise
                             </div>
 
@@ -55,7 +55,7 @@ function GroceristProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Define
                             </div>
 
@@ -66,7 +66,7 @@ function GroceristProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Ideate 
                             </div>
 
@@ -78,7 +78,7 @@ function GroceristProjectPage() {
                         </li>
 
                         <li>
-                            <div className="p-2 text-base font-normal w-full text-left">
+                            <div className="p-1 text-sm font-normal w-full text-left">
                                 Prototype and Testing
                             </div>
                             
@@ -197,11 +197,11 @@ function GroceristProjectPage() {
                         {/* Empathize */}
                         <h2 ref={uInterviewRef} className="text-3xl mt-4 mb-2">Empathy: Persona</h2>    
                         <p className="text-base mb-4">In this stage, I did some user research to learn from users and uncover insights from potential users about their current grocery shopping habits. Then, I took a deep dive into understanding the user  (Sara) by creating a persona and articulating her journey in order to fulfil the app requirements and hence help Sara get her desired outcome.</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699663/deni.design/grocerist/groce-persona-1_ed6xqc.png" alt="persona" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699663/deni.design/grocerist/groce-persona-1_ed6xqc.png" alt="persona" />
 
                         <h2 className="text-3xl mt-4 mb-2">Storyboard</h2>    
                         <p className="text-base mb-4">Scenario: future user end-end experience using Grocerist</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699662/deni.design/grocerist/groce-User-Journey_rdluwo.png" alt="Storyboard" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699662/deni.design/grocerist/groce-User-Journey_rdluwo.png" alt="Storyboard" />
 
                         <h2 ref={iStatementRef} className="text-3xl mt-4 mb-2">Design Exploration</h2> 
 
@@ -311,19 +311,19 @@ function GroceristProjectPage() {
                             <li ref={pPlanningRef}><span className="font-bold">What is the user’s goal?</span> <br />I framed this using a <span className="text-[#FF8000]">Point of view</span> otherwise known as a <span className="text-[#FF8000]">Problem statement</span>.</li>
                         </ul>
 
-                        <img ref={povRef} className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699662/deni.design/grocerist/groce-ideatee_d4ya1i.png" alt="ideation" />
+                        <img ref={povRef} className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699662/deni.design/grocerist/groce-ideatee_d4ya1i.png" alt="ideation" />
 
                         <ul ref={hmwsRef} className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 mb-8 flex flex-col gap-4">
                             <li><span className="font-bold">What are the steps the user needs to take to achieve this goal?</span> <br />I framed a “How Might We” question to help me properly brainstorm ideas to create a task flow for the goal previously defined.</li>
                         </ul>
 
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675701694/deni.design/grocerist/caalloutt_ntdwcm.png" alt="problem quote" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675701694/deni.design/grocerist/caalloutt_ntdwcm.png" alt="problem quote" />
 
                         
 
                         {/* User flow */}
                         <h2 ref={uFlowRef} className="text-3xl mt-4 mb-2">User flow</h2>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699665/deni.design/grocerist/task_flow_1_hulmbb.png" alt="user flow" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699665/deni.design/grocerist/task_flow_1_hulmbb.png" alt="user flow" />
 
 
                         <h3 className="text-xl font-bold mb-4">Assumptions</h3>
@@ -352,7 +352,7 @@ function GroceristProjectPage() {
 
                         <h2 ref={lofiRef} className="text-3xl mt-4 mb-4">Prototype</h2>
                         <p className="text-base mb-4">LoFi Prototype</p>
-                        <img className="my-6 md:mr-[20%]" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699662/deni.design/grocerist/groce-lofi_u3sh87.png" alt="lofi protype" />
+                        <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699662/deni.design/grocerist/groce-lofi_u3sh87.png" alt="lofi protype" />
 
 
 

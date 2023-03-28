@@ -10,7 +10,7 @@ import XcelProjectPage from './pages/projects/XcelProjectPage';
 import SpeakingPage from './pages/SpeakingPage';
 import NotFoundPage from './pages/NotFoundPage.js';
 
-import AppNavbar from "./components/app-components/Navbar";
+// import AppNavbar from "./components/app-components/Navbar";
 import AppFooter from "./components/app-components/Footer";
 
 const ScrollToTop = ()=>{ 
@@ -30,7 +30,6 @@ function App() {
   return (
     <>
         <div className='app'>
-            <AppNavbar />
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/projects/project-page" element={<ProjectPage />} />
