@@ -1,35 +1,74 @@
+import { Link, NavLink } from "react-router-dom"
 
+import { ReactComponent as ReactLogo } from "./../assets/deni.design-logo.svg";
 
 
 function HomePage() {
 
 
   return (
-    <div className="speaking-page px-8 md:px-[8%] py-12 mx-auto lg:py-30">
-        <img className="mb-4 w-[40px] h-auto" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1676848156/deni.design/hello_drmkxg.png" alt="hi emoji" />
-        <h1 className="text-3xl text-deniblack text-left mb-10 md:mb-16">
-            Here are some of the design topics i’ve had the <br />
-            opportunity to speak about at design bootcamps
-        </h1>
+    <div>
+        <header className="app-header">
+                <nav className="bg-white border-gray-200 px-8 py-2.5">
+                    <div className="container flex flex-wrap items-center justify-between mx-auto">
+                        <Link to="/" className="flex items-center">
+                            <ReactLogo className="fill-white"/>
+                        </Link>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8 text-base text-deniblack">
-            <div class="bg-gray-100 p-4 w-full shadow-lg shadow-gray-500/50 rounded">
-                <img className="w-full mb-4" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1676850715/deni.design/speaking-1_jnzfpn.png" alt="speeaking 1 img" />
-                <p className="mb-12">In this session, I delivered a talk on how to design your products for mobile to the accelerator program students.mobile design should be about the tasks the user wants to carry out and how to ensure that the user experience incorporates that.</p>
-                <p className="text-xl text-center text-[#717987]">JANUARY 21, 2021</p>
+                        {/* Current path: {location} */}
+                        <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-xs text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                        <span className="sr-only">Open main menu</span>
+                        <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        </button>
+                        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+                        <ul className="app-nav-ul flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-xs md:font-medium md:border-0 md:bg-white ">
+                            <li>
+                                <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Case Study</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Speaking</NavLink>
+                            </li>
+                            
+                            <li>
+                                <a href="https://drive.google.com/file/d/1H0dRUAl8I9z9BMskwrg9TzjC3H1_UsZI/view?usp=sharing" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">My Resume</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        <div className="speaking-page px-8 md:px-[8%] py-12 mx-auto lg:py-30">
+            <img className="mb-4 w-[40px] h-auto" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1676848156/deni.design/hello_drmkxg.png" alt="hi emoji" />
+            <h1 className="text-3xl text-deniblack text-left mb-10 md:mb-16">
+                Here are some of the design topics i’ve had the <br />
+                opportunity to speak about at design bootcamps
+            </h1>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8 text-base text-deniblack">
+                <div class="bg-gray-100 p-4 w-full shadow-lg shadow-gray-500/50 rounded">
+                    <img className="w-full mb-4" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1676850715/deni.design/speaking-1_jnzfpn.png" alt="speeaking 1 img" />
+                    <p className="mb-12">In this session, I delivered a talk on how to design your products for mobile to the accelerator program students.mobile design should be about the tasks the user wants to carry out and how to ensure that the user experience incorporates that.</p>
+                    <p className="text-xl text-center text-[#717987]">JANUARY 21, 2021</p>
+                </div>
+                <div class="bg-gray-100 p-4 w-full shadow-lg shadow-gray-500/50 rounded">
+                    <img className="w-full mb-4" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1676850714/deni.design/speaking-2_sfsaof.png" alt="speeaking 2 img" />
+                    <p className="mb-12">
+                        In this session, I delivered a talk on brainstorming ideas and validating ideas. Many ideas look good on paper but fail in real life. 
+                        It is important to make sure you are building something people want and sre willing to pay for.
+                    </p>
+                    <p className="text-xl text-center text-[#717987]">FEBRUARY 07, 2021</p>
+                </div>
+                <div class="bg-gray-100 p-4 w-full shadow-lg shadow-gray-500/50 rounded">
+                    <img className="w-full mb-4" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1676850714/deni.design/speaking-3_dxmiwm.png" alt="speeaking 1 img" />
+                    <p className="mb-12">In this session, I delivered a talk on  getting started in Product Design, fundamentals of designers and the relationship between PMs and Designers. Walked through the design process taking reference from a real life scenario in “Founders” - a movie about how McDonald’s came to be.  Also walked through Airbnb’s case study and how Airbnb designed trust into their product. </p>
+                    <p className="text-xl text-center text-[#717987]">FEBRUARY 07, 2021</p>
+                </div>
             </div>
-            <div class="bg-gray-100 p-4 w-full shadow-lg shadow-gray-500/50 rounded">
-                <img className="w-full mb-4" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1676850714/deni.design/speaking-2_sfsaof.png" alt="speeaking 2 img" />
-                <p className="mb-12">In this session, I delivered a talk on brainstorming ideas and validating ideas. Many ideas look good on paper but fail in real life.
-It is important to make sure you are building something people want and sre willing to pay for.</p>
-                <p className="text-xl text-center text-[#717987]">FEBRUARY 07, 2021</p>
-            </div>
-            <div class="bg-gray-100 p-4 w-full shadow-lg shadow-gray-500/50 rounded">
-                <img className="w-full mb-4" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1676850714/deni.design/speaking-3_dxmiwm.png" alt="speeaking 1 img" />
-                <p className="mb-12">In this session, I delivered a talk on  getting started in Product Design, fundamentals of designers and the relationship between PMs and Designers. Walked through the design process taking reference from a real life scenario in “Founders” - a movie about how McDonald’s came to be.  Also walked through Airbnb’s case study and how Airbnb designed trust into their product. </p>
-                <p className="text-xl text-center text-[#717987]">FEBRUARY 07, 2021</p>
-            </div>
-            
+
+            <hr className="mt-24 " />
         </div>
     </div>
   );
