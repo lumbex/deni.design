@@ -46,10 +46,10 @@ function LugahProjectPage() {
                         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul className="app-nav-ul flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-xs md:font-medium md:border-0 md:bg-white ">
                             <li>
-                                <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</NavLink>
+                                <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</NavLink>
                             </li>
                             <li>
-                                <NavLink to="#" className="block py-2 pl-3 pr-4 text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Case Study</NavLink>
+                                <NavLink to="#" className="block py-2 pl-3 pr-4 underline underline-offset-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Case Study</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Speaking</NavLink>
@@ -166,24 +166,24 @@ function LugahProjectPage() {
                     <div className="md:p-4 w-full px-2 sm:px-0 sm:w-3/5 mx-auto my-0">
                         <section className="overview flex flex-col md:flex-row gap-6 text-deniblack px-2 md:pl-12 md:pr-8 my-8">
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-sm font-medium text-[#FB8500] mb-2">BACKGROUND</h4>
-                                <h3 className="text-2xl font-bold mb-2">Overview</h3>
+                                <h4 className="text-sm font-medium text-[#FB8500]">BACKGROUND</h4>
+                                <h3 className="text-lg font-bold">Overview</h3>
                                 <p className="text-sm mb-4">Bank call centers receive a large daily influx of inquiry calls, queries, transaction requests etc. with a thousand  more customers waiting in line to get a turn to speak to a human agent without knowing when they’ll be next. </p>
                                 <p className="text-sm mb-8">The scope of this project was to talk to PFAs and identify health challenges we could reimagine a new experience for to create more meaningful experiences for patients. </p>                        
                             </div>
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-sm font-medium text-[#FB8500] mb-2">ROLE & DURATION</h4>
-                                <h3 className="text-2xl font-bold mb-2">Role: Sole Product Designer</h3>
+                                <h4 className="text-sm font-medium text-[#FB8500]">ROLE & DURATION</h4>
+                                <h3 className="text-lg font-bold">Role: Sole Product Designer</h3>
                                 <p className="text-sm mb-6">
                                     I was responsible for: Product direction, User Research, User interface design, Prototyping, and Testing.
                                 </p>
 
-                                <h3 className="text-2xl font-bold mb-2">Team</h3>
+                                <h3 className="text-lg font-bold">Team</h3>
                                 <p className="text-sm mb-6">
                                     1 Project Manager, 1 Data Scientist Scrum masters, 3 Software Engineers, 1 UI/UX Designer, 1 DevOp.
                                 </p>
 
-                                <h3 className="text-2xl font-bold mb-2">Duration</h3>
+                                <h3 className="text-lg font-bold mb-2">Duration</h3>
                                 <p className="text-sm mb-6">
                                     5weeks: September - October ‘21
                                 </p>
@@ -209,12 +209,12 @@ function LugahProjectPage() {
 
                         <section ref={ dStatementRef } className="problem-callout px-6 py-8 md:px-12 md:py-10 bg-[#5E3200] text-[#ffffff]">
                             <p className="text-[#FB8500] font-bold text-xl mb-1">The Goal</p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-10 mt-4 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc  pl-2 md:pl-6 mt-4 mb-8 flex flex-col gap-4">
                                 <li>Reduce bank costs:  allowing chatbot handle basic questions and issues and option to connect to bank agents in cases that require human intervention. Thereby relieving the pressure and inquiry volume for call centers. </li>
                                 <li>Deliver personalized and engaging mobile banking experience to users by allowing them perform their financial tasks in a conversational manner. </li>
                             </ul>
 
-                            <blockquote className="text-xl italic font-semibold">
+                            <blockquote className="text-xl italic font-semibold mx-10">
                                 <p>"How might we make digital banking more personalised and provide 24/7 support to customer queries"</p>
                             </blockquote>
                         </section>
@@ -227,7 +227,7 @@ function LugahProjectPage() {
                             <p className="text-sm mb-4"> Features include:</p>
 
                             
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc  pl-6 md:pl-10 mt-4 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Funds transfer services</span> -  LugahBot can help users perform transactions such as transferring funds to saved beneficiaries or new beneficiaries. LugahBot is also able to pull up user’s transaction history</li>
                                 <li><span className="font-bold">Financial advisor</span>-  LugahBot can act as a financial advisor for customers. Providing them with insights to help better save and plan their funds.</li>
                                 <li><span className="font-bold">Personalized Recommendations and Product Knowledge</span>-  banking companies can use LugahBot to offer a more personalized offerings to their customers by delivering tailored contents to users based on preferences while also educating customers on new products and services available.</li>
@@ -247,7 +247,7 @@ function LugahProjectPage() {
                             <h3 ref={uResearchRef} className="text-xl mb-2 alt-text font-semibold">Research</h3>
                             <p className="text-sm mb-8">My research goal was to get an in-depth understanding of the current customer banking experience using their banking application chatbots, the shortcomings of these chatbots and their experience with banking companies customer supports. The information gathered from this was going to help form my design decisions and identify key requirements of customers in creating a better user experience for them.</p>
                             <h4 className="text-lg text-[#FB8500] mb-0 font-semibold">Some questions I seeked out to answer were:</h4>    
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc  pl-6 md:pl-10 mt-8 mb-8 flex flex-col gap-4">
                                 <li>How do people generally feel about chatbots?</li>
                                 <li>What currently works for them in using a chatbot application; ui elements, style, icons etc.</li>
                                 <li>Major tasks customers perform on their banking applications</li>
@@ -259,7 +259,7 @@ function LugahProjectPage() {
                             <p className="text-sm mb-8">I conducted a competitive analysis across 2 different bank chatbots. I identified the strengths and weaknesses of all 3 and identified the key services offered by all chatbots. </p>
                             
                             <h4 className="text-lg text-[#FB8500] mb-0 font-semibold">The chatbots were tested on the following</h4>    
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc  pl-6 md:pl-10 mt-8 mb-8 flex flex-col gap-4">
                                 <li>Multi-lingual support</li>
                                 <li>How quickly they respond and effectively answer questions</li>
                                 <li>Personality and customization</li>
@@ -274,7 +274,7 @@ function LugahProjectPage() {
                                 <div className="score-card rounded border border-solid border-[#E9CFB1] px-6 py-8">
                                     <h4 className="text-xl text-[#FB8500] mb-4">UBA - Leo</h4>
                                     <p className="text-sm text-[#FB8500]">Strength</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc  pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
                                         <li>Leo is a male chatbot ; personable and humane</li>
                                         <li>Some level of functionality; can detect customer’s account number, check account balance and card top-up</li>
                                         <li>Can process customer’s complaint and queries</li>
@@ -282,7 +282,7 @@ function LugahProjectPage() {
                                     </ul>
                                 
                                     <p className="text-sm text-[#FB8500]">Weaknesses</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc  pl-2 md:pl-2 mt-4 flex flex-col gap-2">
                                         <li>Limited to only messaging application platforms like Facebook and Whatsapp</li>
                                         <li>Lack of multi-lingual support and Nigerian local language</li>
                                         <li>No verification sign on from customers; thereby reducing level of trustworthiness</li>
@@ -295,14 +295,14 @@ function LugahProjectPage() {
                                 <div className="score-card rounded border border-solid border-[#E9CFB1] px-6 py-10">
                                     <h4 className="text-xl text-[#FB8500] mb-4">Fidelity Bank - Ivy</h4>
                                     <p className="text-sm text-[#FB8500]">Strength</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc  pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
                                         <li>Ivy is a female chatbot with cartoon character ; more personable and described as a “cool babe”</li>
                                         <li>High level of functionality; locate nearest ATM, account balance, account opening, bill payment, FX rates.</li>
                                         <li>Can process customer’s complaint and queries</li>
                                     </ul>
                                 
                                     <p className="text-sm text-[#FB8500]">Weaknesses</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc  pl-2 md:pl-2 mt-4 flex flex-col gap-2">
                                         <li>Limited to only messaging application platforms like Facebook</li>
                                         <li>Lack of multi-lingual support and Nigerian local language</li>
                                         <li>No verification sign on from customers; thereby reducing level of trustworthiness</li>
@@ -313,24 +313,56 @@ function LugahProjectPage() {
                             </div>
                         </section>
 
-                        <section className="story flex flex-col text-deniblack font-base px-2 md:px-8 overflow-x-hidden">    
-                            <h3 ref={uInterviewRef} className="text-xl font-bold mb-4 alt-font font-bold mt-8">Customer Interviews</h3>
+                        <section className="story flex bg-[#FFF3E6] flex-col text-deniblack font-base my-8 px-2 md:px-8 overflow-x-hidden">
+                            <h3 ref={uInterviewRef} className="text-xl mb-4 alt-font font-bold mt-10">Customer Interviews</h3>
                             <p className="text-sm mb-8">Target users: banking customers across all age groups</p>
                             <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674772/deni.design/lugah/customer-interview-1_gkq7nw.png" alt="Customer interview" />
                             <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674772/deni.design/lugah/customer-interview-2_wxumth.png" alt="Customer interview 2" />
-                            <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674772/deni.design/lugah/customer-interview-3_e7sihw.png" alt="Customer interview 3" />
+                            <img className="my-6 mb-8" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674772/deni.design/lugah/customer-interview-3_e7sihw.png" alt="Customer interview 3" />
 
+                        </section>
+                        <section className="story flex flex-col text-deniblack font-base px-2 md:px-8 overflow-x-hidden">
                             <h3 ref={iStatementRef} className="text-xl mt-4 mb-2 alt-font font-bold">Findings and Insights</h3>
                             <p className="text-sm mb-4">After speaking to some users and doing my online research, and analyzing the gathered information from the online research and user interviews, to help have a linear direction, I categorized the insights into these 2 categories.</p>
-                            
                         </section>
+                        {/*<section className="comparison flex flex-col md:flex-row gap-6 text-deniblack px-2 md:pl-12 md:pr-8 ">*/}
+                        {/*    <div className="w-full md:w-1/2 block">*/}
+                        {/*        <div className="score-card rounded border border-solid border-[#E9CFB1] px-6 py-8">*/}
+                        {/*            <h4 className="text-xl text-[#FB8500] mb-4">Interface Design and Bot experience</h4>*/}
+                        {/*            <ul className="w-full space-y-1 list-disc  pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">*/}
+                        {/*                <li>Personality and tone are key to conversational interfaces. There should be a human touch to the bot personality for better experience.</li>*/}
+                        {/*                <li>Discoverability - the important actions and informations should be within reach of the interface and easy for users to get to.</li>*/}
+                        {/*                <li>Stop gaps - control shouldn’t be taken fully away from users. They should be able to confirm everytime an action needs ti be taken and clarify their intents.</li>*/}
+                        {/*                <li>Less typing, more clicking - the interface experience shouldn’t be fully text-based as this might lead to lower completion rates if users have to do mostly typing. Giving users option to select/click their answers will improve the UX.</li>*/}
+                        {/*            </ul>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="w-full md:w-1/2 block">*/}
+                        {/*        <div className="score-card rounded border border-solid border-[#E9CFB1] px-6 py-10">*/}
+                        {/*            <div className="w-auto h-40"><img src="" alt=""/></div>*/}
+                        {/*            <h4 className="text-xl text-[#FB8500] mb-4">User Tasks and Expectations</h4>*/}
+                        {/*            <ul className="w-full space-y-1 list-disc  pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">*/}
+                        {/*                <li>Prompt replies - users don’t want to wait several minutes just to get a reply</li>*/}
+                        {/*                <li>Trust - most users are still a little skeptical about sharing personal data and documents over the chat with a bot except it;s happenign within the bank application and security in place.</li>*/}
+                        {/*                <li>Easy onboarding - can’t easily open an account from the mobile baking application.</li>*/}
+                        {/*                <li>Error fallback - users want to be able to know they can easily recover from an error tasks and confirm actions before proceeding.</li>*/}
+                        {/*                <li>The major tasks carried out by users are: check account balance, transfer funds, view transaction history</li>*/}
+                        {/*            </ul>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</section>*/}
 
                         <section className="comparison flex flex-col md:flex-row gap-6 text-deniblack px-2 md:pl-12">
+
                             <div className="w-full md:w-1/2 block">
-                                <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674645/deni.design/lugah/l-findings-tasks_jyki1t.png" alt="bot experience" />
+                                <div className="my-6">
+                                    <img  src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674645/deni.design/lugah/l-findings-tasks_jyki1t.png" alt="bot experience" />
+                                </div>
                             </div>
                             <div className="w-full md:w-1/2 block">
-                                <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674644/deni.design/lugah/l-findings-design_lqk0ng.png" alt="interface design" />
+                                <div className="my-6">
+                                    <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674644/deni.design/lugah/l-findings-design_lqk0ng.png" alt="interface design" />
+                                </div>
                             </div>
                         </section>
 
@@ -339,7 +371,7 @@ function LugahProjectPage() {
                             <h3 ref={hEvaluationRef} className="text-xl font-bold mb-2">Key Takeaways</h3>
                             <p className="text-sm mb-4">After conducting the research and speaking to some customers, here are some of the key takeaways which will inform my design decisions.</p>
                             
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc  pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>97% of task users want to carry out are centered around: fund transfers, account balance viewing, transaction history and rectification of card debit issues</li>
                                 <li>There’s a lack of trust - customers are skeptical to release personal information to chatbots except the transaction is happening within the bank application interface.</li>
                                 <li>Expectation mismatch - chatbots are often times too stiff for customers thereby leaving a gap in not making the conversations fluid.</li>
@@ -352,6 +384,7 @@ function LugahProjectPage() {
 
                             <h3 ref={personaRef} className="text-xl mb-2 font-semibold mt-0">Product Planning</h3>
                             <p className="text-sm mb-8">After analyzing the information gathered from my research and with a clear understanding of the problem we were trying to solve for, I came up with a whiteboard shared with the team and stakeholders. This whiteboard was to help set the product direction, come up with the userflow and enable us have a linear direction as we work on our MVP(minimum viable product).</p>
+                            
                             <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674645/deni.design/lugah/l-planning-chatbot_ahacx9.png" alt="Chatbot Planing" />
                             
 
@@ -373,7 +406,7 @@ function LugahProjectPage() {
                             <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675674645/deni.design/lugah/l-MVP_fffde1.png" alt="POVs" />
                             
                             <p className="text-sm mb-2">Features prioritized include </p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt2 md:mt-4 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc  pl-6 md:pl-10 mt2 md:mt-4 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Funds transfer services</span>-  LugahBot can help users perform transactions such as transferring funds to saved beneficiaries or new beneficiaries. LugahBot is also able to pull up user’s transaction history</li>
                                 <li><span className="font-bold">Financial advisor</span>-  LugahBot can act as a financial advisor for customers. Providing them with insights to help better save and plan their funds.</li>
                                 <li><span className="font-bold">Personalized Recommendations and Product Knowledge</span>-  banking companies can use LugahBot to offer a more personalized offerings to their customers by delivering tailored contents to users based on preferences while also educating customers on new products and services available.</li>
@@ -392,7 +425,7 @@ function LugahProjectPage() {
                             <p className="text-sm mb-4">After several meetings and iterations to the flow, I came up with the high fidelity prototype design. I centered my design around simplicity and functionality. My design choices branched out from the main point being:</p>
                             <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675682462/deni.design/lugah/solution-quote_igdy4n.png" alt="the solution" />
                             <p className="text-sm mb-4">Design decisions made in designing the solution include:</p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt2 md:mt-4 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc  pl-6 md:pl-10 mt2 md:mt-4 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Hybrid interface</span>- part conversational, part point and click. This is to give users some control, even though they will be talking to a robot, the experience didn’t need to totally feel that way. So I <span className="text-[#FB8500]">incorporated stop gaps</span> for users to confirm or cancel certain processes. That way, users still feel in control.</li>
                                 <li><span className="font-bold">Diverse age group reach and accessibility</span>-  from my research, I discovered that the younger generations preferred instant messaging over voice communication while the elderly may have trouble typing their requests. So I optimized my design to accommodate both preferences by providing an option for voice interface as well as a typing area.</li>
                             </ul>
@@ -452,14 +485,14 @@ function LugahProjectPage() {
                             <h2 ref={iValidationRef} className="text-3xl mb-2 alt-font mt-10">Usability Testing</h2>
                             <p className="text-sm mb-4">At the GITEX Expo, I had the application tested by some users and a UX Researcher from a Fintech companies as a potential solution for onboarding older adults on their digital banking app. </p>
                             <p className="text-sm mb-4">What worked for them:</p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc  pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Fluid conversation and easy conversation prompts</span>-  users liked the conversation prompts because it made the conversation faster and didn’t have to go around looking for task buttons</li>
                                 <li><span className="font-bold">Chatbot prompt replies</span>-  users liked that the chatbot was prompt in its replies without keeping them waiting</li>
                                 <li><span className="font-bold">Aesthetic interface with easy information</span>-  users liked that the interface was simple yet functional. They could see their most recent transaction while still being able to reply the chatbot and collapse it at will.</li>
                                 <li><span className="font-bold">Easy onboarding</span>-  the UX researcher found the user onboarding experience smooth adn could see how conversational onboarding could be beneficial to the older generation who didn’t like going through a series of steps to create a banking account on their application</li>
                             </ul>
                             <p className="text-sm mb-4">Improvement opportunities </p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc  pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Smooth agent handoffs</span>-  some users wondered how the conversation would be handed off to an agent smoothly without them having to notice the difference and how that might affect the customer’s experience</li>
                                 <li><span className="font-bold">Separate home interface</span>-  some users wondered if it would be better to have a separate home interface without jumping right into the chatbot interface and in cases the conversation abruptly ends.</li>
                             </ul>
@@ -471,7 +504,7 @@ function LugahProjectPage() {
                                                     
                             <h2 ref={learnedRef} className="text-3xl mb-2 alt-font mt-10">Reflections</h2>
                             <p className="text-sm mb-4">Despite being my first time working on conversation interfaces, I was happy for the opportunity to lead the product direction for such a product that we went on to demo at the Dubai GITEX Expo. Here are some of the learnings I took away from working on this product:</p>
-                            <ul className="w-full space-y-1 list-decimal list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-decimal  pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Prioritize and work with a linear flow</span> <br /> Using a MVP matrix to know which features to move ahead with and which to drop will go a long way in helping to make sure you have a linear direction in designing your product for initial launch. This will also help with meeting tight deadlines while still being able to deliver a quality product with good enough features to get the product out there.</li>
                                 <li><span className="font-bold">Minimalism</span> <br /> Minimalism is key in making sure users are not overwhelmed by the interface design and worst still, confused as to what to do. Knowing the why and who of the product will ensure that we are designing for the right people and also solving their problem(s).</li>
                                 <li><span className="font-bold">Data-driven decisions</span> <br /> Research is key to launching any product: making sure there’s a market/deman for it, knowing similar solutions that exist and critically analyzing the existing solution to make informed decisions in designing your product. This will not only save costs but also time and energy invested in the product.</li>

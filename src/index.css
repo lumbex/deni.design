@@ -48,9 +48,27 @@
   .app-nav-ul{  }
   .app-nav-ul li{}
   .app-nav-ul li a.active{
-    color: rgb(26 86 219 / var(--tw-bg-opacity));
+    /*color: rgb(26 86 219 / var(--tw-bg-opacity));*/
   }
   /* App NavBar END */
+
+  /*Landing Section*/
+.landing-collapsible{}
+.landing-section-parent{
+    height: 100vh;
+    overflow: hidden;
+    transition: all ease-in-out 1s;
+    /*transform: translateY(0%);*/
+}
+.landing-section-parent.show{
+    height: 0;
+    /*transform: translateY(-100%);*/
+}
+
+.landing-section-parent{}
+
+  /*Landing Section END*/
+
 
   /* project-page-sidebar */
 @keyframes wipe-in-right {
@@ -74,6 +92,9 @@
 }
 .project-sidebar{}
 
+ul{
+    list-style-position: outside;
+}
 
 footer{
   /* border-top: 1px solid #D9D9D9; */

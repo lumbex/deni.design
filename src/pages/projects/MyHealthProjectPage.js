@@ -39,24 +39,24 @@ function MyHealthProjectPage() {
                         </Link>
 
                         {/* Current path: {location} */}
-                        <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-xs text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                        <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-xs text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                         </button>
                         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul className="app-nav-ul flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-xs md:font-medium md:border-0 md:bg-white ">
                             <li>
-                                <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</NavLink>
+                                <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 rounded md:bg-transparent md:p-0" aria-current="page">About</NavLink>
                             </li>
                             <li>
-                                <NavLink to="#" className="block py-2 pl-3 pr-4 text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Case Study</NavLink>
+                                <NavLink to="#" className="block py-2 pl-3 pr-4 text-deniblack underline underline-offset-4 rounded  md:border-0 md:p-0  ">Case Study</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Speaking</NavLink>
+                                <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-deniblack rounded  md:border-0 md:p-0">Speaking</NavLink>
                             </li>
                             
                             <li>
-                                <a href="https://drive.google.com/file/d/1H0dRUAl8I9z9BMskwrg9TzjC3H1_UsZI/view?usp=sharing" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">My Resume</a>
+                                <a href="https://drive.google.com/file/d/1H0dRUAl8I9z9BMskwrg9TzjC3H1_UsZI/view?usp=sharing" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-gray-700 rounded md:border-0 md:p-0 ">My Resume</a>
                             </li>
                         </ul>
                         </div>
@@ -182,10 +182,10 @@ function MyHealthProjectPage() {
                     </section>
 
                     <div className="md:p-4 w-full px-2 sm:px-0 sm:w-3/5 mx-auto my-0">
-                        <section className="overview flex flex-col md:flex-row gap-6 text-deniblack px-2 md:pl-12 md:pr-8">
+                        <section className="overview flex flex-col md:flex-row gap-6 text-deniblack pt-2 pb-4 md:pl-12 md:pr-8">
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-xl text-blue-600 mb-2">BACKGROUND</h4>
-                                <h3 className="text-2xl font-bold mb-2">Overview</h3>
+                                <h4 className="text-sm text-blue-600">BACKGROUND</h4>
+                                <h3 className="text-lg font-bold">Overview</h3>
                                 <p className="text-base mb-4">
                                     This project was conducted as part of the project requirement for my Design Thinking course. We worked with PFAs (Patient Family Advisors) who were spokesmen of patients at the St Joseph hospitals but also, had themselves been patients at one time or the other.
                                 </p>
@@ -194,19 +194,19 @@ function MyHealthProjectPage() {
                                 </p>
                             </div>
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-xl text-blue-600 mb-2">ROLE & DURATION</h4>
-                                <h3 className="text-2xl font-bold mb-2">Role: UI/UX Designer</h3>
-                                <p className="text-base mb-6">
+                                <h4 className="text-sm text-blue-600">ROLE & DURATION</h4>
+                                <h3 className="text-lg font-bold">Role: UI/UX Designer</h3>
+                                <p className="text-base mb-4">
                                     This project was conducted as part of the project requirement for my Design Thinking course. We worked with PFAs (Patient Family Advisors) who were spokesmen of patients at the St Joseph hospitals but also, had themselves been patients at one time or the other.
                                 </p>
 
-                                <h3 className="text-2xl font-bold mb-2">Team</h3>
-                                <p className="text-base mb-6">
+                                <h3 className="text-lg font-bold">Team</h3>
+                                <p className="text-base mb-4">
                                     I worked along side two other classmates who were from mechanical engineering to conduct interviews and document our research findings
                                 </p>
 
-                                <h3 className="text-2xl font-bold mb-2">Duration</h3>
-                                <p className="text-base mb-6">
+                                <h3 className="text-lg font-bold">Duration</h3>
+                                <p className="text-base mb-4">
                                     3 weeks - design thinking class project
                                 </p>
                             </div>
@@ -226,7 +226,7 @@ function MyHealthProjectPage() {
                             </p>
 
                             
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-8 mb-4 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-8 mb-4 flex flex-col gap-4">
                                 <li>Lack of aftercare summary piece - patients want to know what was discusses during their doctor visits especially for intense visits where they get overloaded with information that is ahrd for them to retain.</li>
                                 <li>Language barrier - speaking to the PFAs, a lot of international patients find it hard to communicate in english and worse, comprehend English written texts. This makes it hard for them to make proper use of available health tools</li>
                                 <li>Silo system of hospital - speaking to the PFAs, we discovered that the hospital system works in silos. Consequently, the entire care team of a patient aren’t well-informed of patient’s progress some times. Also, there is no way to share patient’s medical history if perhaps a patient moves to a new city</li>
@@ -248,7 +248,7 @@ function MyHealthProjectPage() {
                             <p className="text-base mb-4">Features designed for include:  </p>
 
                             
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Medical Notes</span> -  a comprehensive aftercare summary notes detailing what was discussed during a doctor’s appointment/visit</li>
                                 <li><span className="font-bold">Medication Calendar</span> - A visual calendar detailing when and how prescribed medications should be used as well as symptoms or signs patients should watch out for </li>
                                 <li><span className="font-bold">AR Interactive Wayfinding Indoor Map </span>- an interactive indoor map to help alleviate the stress of the day by helping patients find their way around the hospital whether they are going in for a surgery or running late for a doctor’s appointment.</li>
@@ -271,7 +271,7 @@ function MyHealthProjectPage() {
                             <h4 className="text-xl text-deniblack mb-2 font-bold">Key takeaways from our main 3 user interviews</h4>
                             
                             <h4 className="text-xl text-blue-600 mb-0">Interviewee 1: Sahar</h4>    
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-8 mb-8 flex flex-col gap-4">
                                 <li>It is important for a patient to feel involved with their healthcare and to empower them with knowledge</li>
                                 <li>Patients need to be properly informed of the risks post-surgery, what to do and when to do it.</li>
                                 <li>Wishes the current healthtool: Dovetail system would provide more aftercare tools and information about what is happening to them, what to do after surgery, and complications</li>
@@ -280,7 +280,7 @@ function MyHealthProjectPage() {
                             </ul>
 
                             <h4 className="text-xl text-blue-600 mb-0">Interviewee 2: Debra</h4>    
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>A lack of confidence in the resources and current capabilities of the medical system, everything in the healthcare system functions in silos and fails to work together.</li>
                                 <li>Nurses and doctors use a lot of jargon, and this can be confusing for the patients and leave them feeling left out or lost in their healthcare. Health talk is a tool she teaches nurses that focuses on providing information at a level everyone can understand.</li>
                                 <li>It is critical to provide tools so that a patient can “own their health,” this includes tools to overcome language barriers and confusion caused by medical terms or gaps in understanding.</li>
@@ -288,7 +288,7 @@ function MyHealthProjectPage() {
                             </ul>
 
                             <h4 className="text-xl text-blue-600 mb-0">Interviewee 3: Nancy</h4>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 mb-12 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 mb-12 flex flex-col gap-4">
                                 <li>There are misconceptions and misinformation about medications and healthcare needs, this causes fear and can lead to further issues or complications.</li>
                                 <li>Medical staff, especially nurses in environments like the ER, are always in a busy state, with very little downtime, and need to develop their own tools to cope. Nurses do their job and then move on, there is little time to do anything else.</li>
                                 <li>The healthcare system can be difficult to navigate, it takes years of being in the system to fully understand what tool is best to help with what condition.</li>
@@ -299,21 +299,21 @@ function MyHealthProjectPage() {
                             <p className="text-base mb-4"> We synthesized the insights we discovered and categorized them into clusters with each cluster highlighting the insights under each.</p>
                             
                             <h4 className="text-xl text-blue-600 mb-0">Cluster 1: Information Dearth</h4>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>There is a heightened sense of anxiety going into and coming out of surgery and half the time patients are not well-informed as to what to expect before and after. </li>
                                 <li>Patients are met with a lot of signs and symptoms post-op which often times they overlook due to lack of proper information post operation.  </li>
                                 <li>Patients want to be expert in their own medical condition to help them feel more like a part of the process in their health procedures(e.g surgeries)</li>
                             </ul>
 
                             <h4 className="text-xl text-blue-600 mb-0">Cluster 2: Communication gap/Language barrier</h4>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>Patients want access to tools customized to their needs and situation(s).</li>
                                 <li>In the medical environment there are communication gaps that exist between staff and caregivers due to changeovers in shifts leaving a lot of information not communicated.</li>
                                 <li>People go to where there is an abundance of like-minded individuals like them. Hence patients are sometimes hesitant to go to clinics if there is uncertainty about if they will be able to communicate easily with the doctors or nurses.</li>
                             </ul>
 
                             <h4 className="text-xl text-blue-600 mb-0">Cluster 3: Healthcare distrust</h4>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>People think doctors are on a pedestal and should not be questioned even when it involves their health</li>
                                 <li>Patients push back in seeking medical help because of the lack of compassion from medical professionals</li>
                                 <li>Patients are not made to feel like they are part of the process. Consequently, they show resistance to seeking medical help</li>
@@ -428,7 +428,7 @@ function MyHealthProjectPage() {
                             <p className="text-base mb-8">Before brainstorming ideas, we needed to understand what the user’s goal is now that we have an understanding of who they are. For this, we framed their goal using POV or problem statement. <br />We defined different problem statements for both our mainstream user and extreme users.</p>
                             <p className="text-base mb-8">We wanted to ensure that in designing a solution and creating a meaningful experience for users, the design solution could serve as many people as possible without excluding certain user groups from experiencing our solution. To do this, we accounted for the case of extreme users interacting with our solution. What design decisions could we make to make their experience the same as that of our mainstream users?</p>
                             <p className="text-base mb-8">Our extereme users include:</p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>Users who are visually impaired: partial loss of vision, total loss of vision or color blind</li>
                                 <li>Users who are not “tech savvy”: users who do not like to use digital technologies due the perceived complication around the use thereof</li>
                                 <li>Users who are language impaired: cannot communicate or understand the default language of most applications which is usually English.</li>
@@ -442,7 +442,7 @@ function MyHealthProjectPage() {
                             <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675291909/deni.design/my-health/my-health-ideate-2_qlgb6k.png" alt="ideate" />
                             
                             <h3 ref={bStormingRef} className="text-xl font-semibold mb-2">Ideas from brainstorming</h3>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>A software/portal that can provide information such as a user portfolio, previous medical history, detailed notes on visits, tips and tricks for care and recovery, and a customer support chat</li>
                                 <li>An app that allows people to be aware of which practice facility to go to depending on their situation (ER, urgent care, walk-in, etc.)</li>
                                 <li>Doctor-patient simulator game that allows a visual experience for patients to understand how care may be given depending on the situation</li>
@@ -454,7 +454,7 @@ function MyHealthProjectPage() {
 
                             <h3 className="text-xl font-semibold mb-2">Idea selection</h3>
                             <p className="text-base mb-4"> We decided to go with <span className="text-blue-600">Idea 1: the MyHealth</span> app for the following reasons: </p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>From talking to users, one major insight that kept re-occurring in every interview was a dearth of information. There was the concerning question of patients asking; so, what do I do? How do I know this about the healthcare system or my health condition? All of 29 | P a g e these showed that patients wanted to know things about their health, but the gap was in the lack of access to tools providing this information and no open direct line of communication with their doctors</li>
                                 <li>At the core, patients needed a health information system that was personalized to their individual needs and situations.</li>
                                 <li>MyHealth was the closest we could get to help provide if not all the answers to patient’s concerns, but at least some while also giving them an open line of communication with their entire care team</li>
@@ -501,7 +501,7 @@ function MyHealthProjectPage() {
                             
                             <h3 ref={iValidationRef} className="text-xl font-semibold mb-2">Idea Validation: feedback from initial testing with Sahar (user)</h3>
                             <p className="text-base mb-4">Here are some of the suggestions and comments made by one of the users: </p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>After testing the initial prototype with Sahar, she explained how we have managed to capture a lot of the features she had hoped Dovetail would have provided but fell short on.</li>
                                 <li>Sahar had a positive reaction to the guide for the software (helping onboard inexperienced users in getting familiar with the app) and verified that the service would be able to be translated into multiple languages.</li>
                                 <li>Suggested to use of symbols to remind patients when to take their meds, for example, a sun rising in the morning, and a moon for the night. She explained that being able to have your medication schedule easily laid out like this for the patient, especially one that just came out of surgery, helps prevent confusion and ensure that they follow what they need to. After surgery, there are wait periods for taking some medication and others need to be taken in infrequent periods.</li>
@@ -510,7 +510,7 @@ function MyHealthProjectPage() {
 
                             <h3 ref={dDecisionsRef} className="text-xl text-blue-600 font-semibold mb-2">Final prototype: insights that drove final decisions</h3>
                             <p className="text-base mb-4">Using the initial feedback gotten from Sahar, we made more adjustments to the prototype. Here are some insights that drove the decisions made to make refinements to the final prototype:</p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>Patients are already stressed about hospital visits and worse on surgery day, navigating the hospital area/specified room should be the least of their problems.</li>
                                 <li>When patients feel like they have a say in their health care and as a part of the healthcare process, they show less resistance in seeking medical help and are more adherent to medications because they have a full understanding of why they do certain things relating to their health and why certain things are happening.</li>
                                 <li>Patients do not want to feel alone in their health journey and are better comforted when information relating to their health comes directly from their care team instead of relying on the internet to give them updated information about their health condition. E.g., a guide as to what happens during a knee replacement surgery will be helpful, coming directly from the doctor in a digital format as opposed to a booklet which is not easily shareable among their care team.</li>
@@ -539,13 +539,13 @@ function MyHealthProjectPage() {
                             <p className="text-base mb-4"><span className="font-bold">How it will work:</span> The indoor map is sent as a link or QR code embedded in appointment reminder messages sent a day before the patient’s appointment. </p>
                         
                             <h3 ref={tNotesRef} className="text-3xl font-bold text-blue-600 mt-4 mb-2 alt-font">Testing: notes from testing with Sahar</h3>
-                            <p className="text-xs mb-4">Sahar felt comfortable walking through the prototype. She particularly liked the terminologies section included in the doctor's notes. She thought it was a good way to help patients and doctors clarify meanings of terminologies and acronyms used during conversations. </p>
-                            <p className="text-xs mb-4">The Medication calendar feature also stood out to her. It was easy for her to read and understand what each medication was. She mentioned that the use of plain language was helpful to her and reckons it will be helpful for people with language barriers so they can easily copy the words and get the verbatim translation in a translation tool. Also mentioned was the visual display and short description of what each medication looked like. Seeing that, she thought it would give her a thorough differentiation between all the medications she had to use. She nodded her head at intervals when she understood what was on each screen on the prototype. </p>
+                            <p className="text-base mb-4">Sahar felt comfortable walking through the prototype. She particularly liked the terminologies section included in the doctor's notes. She thought it was a good way to help patients and doctors clarify meanings of terminologies and acronyms used during conversations. </p>
+                            <p className="text-base mb-4">The Medication calendar feature also stood out to her. It was easy for her to read and understand what each medication was. She mentioned that the use of plain language was helpful to her and reckons it will be helpful for people with language barriers so they can easily copy the words and get the verbatim translation in a translation tool. Also mentioned was the visual display and short description of what each medication looked like. Seeing that, she thought it would give her a thorough differentiation between all the medications she had to use. She nodded her head at intervals when she understood what was on each screen on the prototype. </p>
 
-                            <p className="text-xs text-gray-600 mb-4"> “... there’s this aftercare summary piece that is missing. I want a summary; this is the aftercare summary I would love. I love this idea, but the one challenging piece is getting the medical professionals onboard to use it. But i think it’s too valuable for them to not buy into this because it is an incredibly valuable tool you are proposing. Especially the key terminology - I think that’s brilliant.” Sahar </p>
+                            <p className="text-base text-[#425172] mb-4"> “... there’s this aftercare summary piece that is missing. I want a summary; this is the aftercare summary I would love. I love this idea, but the one challenging piece is getting the medical professionals onboard to use it. But i think it’s too valuable for them to not buy into this because it is an incredibly valuable tool you are proposing. Especially the key terminology - I think that’s brilliant.” Sahar </p>
 
                             <h3 ref={learnedRef} className="text-3xl font-bold text-blue-600 mt-4 alt-font">Reflection: what I learned</h3>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt-2 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt-2 mb-8 flex flex-col gap-4">
                                 <li>From testing with Sahar, I learned that seeking out feedback early was immensely helpful in helping to decide if we were on the right path and more importantly if we were designing a meaningful experience for patients by addressing a concern.</li>
                                 <li>In interviewing and iterating through prototypes, I learned that being  data driven is necessary in making creative decisions and producing a viable solution. Consequently, a designer should always be open to iterate through several prototype to get to the final deliverable</li>
                                 <li>Interviewing patients that have used the existing solutions helped provide a better understanding of the barriers they have faced so far, what positives and negatives they have seen, and tools that they feel are missing or under-utilized.</li>

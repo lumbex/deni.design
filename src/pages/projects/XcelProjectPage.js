@@ -54,7 +54,7 @@ function RPlannerProjectPage() {
                                 <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</NavLink>
                             </li>
                             <li>
-                                <NavLink to="#" className="block py-2 pl-3 pr-4 text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Case Study</NavLink>
+                                <NavLink to="#" className="block py-2 pl-3 pr-4 underline underline-offset-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Case Study</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Speaking</NavLink>
@@ -171,20 +171,20 @@ function RPlannerProjectPage() {
 
                         <section className="overview flex flex-col md:flex-row gap-6 text-deniblack px-2 md:pl-12 md:pr-8 my-8">
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-sm font-medium text-[#FB8500] mb-2">BACKGROUND</h4>
-                                <h3 className="text-2xl font-bold mb-2">Overview</h3>
+                                <h4 className="text-sm font-medium text-[#FB8500]">BACKGROUND</h4>
+                                <h3 className="text-lg font-bold">Overview</h3>
                                 <p className="text-base mb-2">With the hassle of waiting long queue lines in banks and the lack of an efficient international mobile money transfer service, XCEL recognized a gap to fill to bring financial services to the finger tips of users.</p>
                                 <p className="text-base mb-4">XCEL mobile app gives users ability to make quick fund transfers both locally and internationally, top-up their mobile phones, pay bills(cable, electricity, and more) all from the convenience of their mobile phones. All while being able to use the app to reach financial goals through creating of savings plans in the pots feature.</p>
                             </div>
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-sm font-medium text-[#FB8500] mb-2">ROLE & DURATION</h4>
-                                <h3 className="text-2xl font-bold mb-2">Role</h3>
+                                <h4 className="text-sm font-medium text-[#FB8500]">ROLE & DURATION</h4>
+                                <h3 className="text-lg font-bold">Role: Sole Product Designer</h3>
                                 <p className="text-base mb-6">
-                                    <span className="font-bold">Sole Product Designer</span> <br /> 
+                                    {/*<span className="font-bold"></span> <br /> */}
                                     I was responsible for:  User interface design, Research, Interaction design and Prototyping.
                                 </p>
 
-                                <h3 className="text-2xl font-bold mb-2">Duration</h3>
+                                <h3 className="text-lg font-bold">Duration</h3>
                                 <p className="text-base mb-6">
                                     June 2020 - April 2021.
                                 </p>
@@ -203,9 +203,10 @@ function RPlannerProjectPage() {
                         </section>
 
                         <section ref={ dStatementRef } className="problem-callout px-6 py-8 md:px-12 md:py-10 bg-[#162C62]">
-                            <p className="text-white text-base mb-1">The Goal:</p>
-                            <blockquote className="text-xl italic font-semibold">
-                                <p className="text-white text-lg">How might we improve the user experience such that it increases the customer retention and number of daily active users.</p>
+                            <p className="text-white font-bold text-xl mb-1">The Goal</p>
+
+                            <blockquote className="text-xl italic font-semibold mx-10">
+                                <p className="text-white text-lg">"How might we improve the user experience such that it increases the customer retention and number of daily active users."</p>
                             </blockquote>
                         </section>
 
@@ -222,7 +223,7 @@ function RPlannerProjectPage() {
                             <h2 className="text-3xl mt-2 alt-font font-bold">Current Challenge</h2>
                             <p className="text-base mb-4">XCEL is an AI-based banking chatbot integrated into banking applications serving as the user’s personal assistant, a financial advisor, customer support. BankBot uses natural language algorithm to understand what users enter as input while also using chat prompts to minimize typing for users. Features include</p>
                             
-                            <ul class="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul class="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Funds transfer services</span> -  LugahBot can help users perform transactions such as transferring funds to saved beneficiaries or new beneficiaries. LugahBot is also able to pull up user’s transaction history</li>
                                 <li><span className="font-bold">Financial advisor</span> -  LugahBot can act as a financial advisor for customers. Providing them with insights to help better save and plan their funds.</li>
                                 <li><span className="font-bold">Personalized Recommendations and Product Knowledge</span>-  banking companies can use LugahBot to offer a more personalized offerings to their customers by delivering tailored contents to users based on preferences while also educating customers on new products and services available.</li>

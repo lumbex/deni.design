@@ -50,17 +50,17 @@ function RPlannerProjectPage() {
                         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul className="app-nav-ul flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-xs md:font-medium md:border-0 md:bg-white ">
                             <li>
-                                <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</NavLink>
+                                <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 bg-blue-700 rounded md:bg-transparent md:p-0" aria-current="page">About</NavLink>
                             </li>
                             <li>
-                                <NavLink to="#" className="block py-2 pl-3 pr-4 text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Case Study</NavLink>
+                                <NavLink to="#" className="block py-2 pl-3 pr-4 underline underline-offset-4 rounded md:hover:bg-transparent md:border-0  md:p-0 ">Case Study</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Speaking</NavLink>
+                                <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-gray-700 rounded md:hover:bg-transparent md:border-0  md:p-0 ">Speaking</NavLink>
                             </li>
                             
                             <li>
-                                <a href="https://drive.google.com/file/d/1H0dRUAl8I9z9BMskwrg9TzjC3H1_UsZI/view?usp=sharing" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">My Resume</a>
+                                <a href="https://drive.google.com/file/d/1H0dRUAl8I9z9BMskwrg9TzjC3H1_UsZI/view?usp=sharing" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0">My Resume</a>
                             </li>
                         </ul>
                         </div>
@@ -168,20 +168,20 @@ function RPlannerProjectPage() {
                     <div className="md:p-4 w-full px-2 sm:px-0 sm:w-3/5 mx-auto my-0">
                         <section className="overview flex flex-col md:flex-row gap-6 text-deniblack px-2 md:pl-12 md:pr-8 my-8">
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-lg text-blue-600 mb-2">BACKGROUND</h4>
-                                <h3 className="text-2xl font-bold mb-2">Overview</h3>
+                                <h4 className="text-sm text-blue-600">BACKGROUND</h4>
+                                <h3 className="text-lg font-bold">Overview</h3>
                                 <p className="text-base mb-4">
                                     Retirement can both be a thing of joy and despair depending on who’s experiencing it and how prepared people are for this new “phase”. In this design project, I had conversations with older adults who were thinking to retire and were already retired. With the conversations, I wanted to dig deeper into understanding their transition into the retirement phase, especially the early stages for those who are already retired. Also to understand what people who are looking to retire envision retirement would be like.
                                 </p>
                             </div>
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-lg text-blue-600 mb-2">ROLE & DURATION</h4>
-                                <h3 className="text-2xl font-bold mb-2">Role: Sole Product Designer</h3>
+                                <h4 className="text-sm text-blue-600">ROLE & DURATION</h4>
+                                <h3 className="text-lg font-bold">Role: Sole Product Designer</h3>
                                 <p className="text-base mb-6">
                                     I was responsible for: Product direction, User Research, User interface design, Prototyping, and Testing.    
                                 </p>
 
-                                <h3 className="text-2xl font-bold mb-2">Team</h3>
+                                <h3 className="text-lg font-bold">Team</h3>
                                 <p className="text-base mb-6">
                                     I worked along side two other classmates who were from mechanical engineering to conduct interviews and document our research findings
                                 </p>
@@ -202,6 +202,7 @@ function RPlannerProjectPage() {
                             </p>
 
                             <h2 className="text-3xl mt-4 alt-font font-bold">The Solution: <span className="font-normal">R-planner</span></h2>
+
 
                             <img className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675732550/deni.design/r-planner/the-Solution1_vkykml.png" alt="solution-1" />
 
@@ -231,43 +232,43 @@ function RPlannerProjectPage() {
                             
                             <h4 className="text-lg text-blue-600 font-semibold my-4">Interviewee 1: Dr Akintide</h4>    
                             
-                            <ol class="w-full space-y-1 list-decimal list-inside pl-2 mb-2 flex flex-col gap-2">
+                            <ol class="w-full space-y-1 list-decimal list-outside pl-2 mb-2 flex flex-col gap-2">
                                 <li>Tell me a little about your background and work history.
-                                    <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                    <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                         <li>I was a recipient of the British Canadian Legion which allowed me to go to University to study in Nigeria. After school, I became a teacher and worked in Public Service for 25 years before I decided to leave Nigeria. I moved  to the US and got a job at the United Nations and CAFRAB; an institution under the UN representing Nigeria on the board in Morocco for 3 years. From there, I worked in New York State for 17 years which was where I retired from. I travelled the world quite a little bit. <span className="text-blue-600">“So when I was preparing for retirement, I was preparing for a life that would enable me to travel all over the world like I used to and that’s what I’m doing”</span>. After putting in 17 years, in addition to the 25 years I had served in Nigeria, I was getting tired and could feel that age was taking its toll on me. “I could feel I was getting old and didn’t want to die on the job”. I just wanted to give myself a break and retire and give myself a good life.</li>                                
                                     </ol>
                                 </li>
                                 <li>What was you definition of a good life at the time? Did you already have a picture of the life you wanted? How did you envision retirement?
-                                    <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                    <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                         <li>I was lucky when I was working. I was always given nice postings. The kind of postings that I had, has enabled me to travel all over the world. So because my job came with exploring my interest in travelling, it made things easier for me. Also, I had financial leverage that helped me plan to afford the retirement life I wanted. Exactly what I wanted to be doing is what I got. After retirement, I went to Monaco and there are a few places around the world I haven’t been to. <span className="text-blue-600">”So that is the kind of life I wanted and I was able to plan towards it early on”</span>. Also, before retirement, I was able to save some money diligently that I could draw from to achieve what I wanted going into retirement.</li>
                                     </ol>
                                 </li>
                                 <li>After you left the job you had been in for 17 years, how did you feel?
-                                    <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                    <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                         <li>There were moments when I felt idle and would have been lost if not for some of the decisions I made early on. While I was working with the UN, I decided to go back to the university even though I already had a Ph.D. But I did it to maintain my pride and ego as a person. <span className="text-blue-600">”I took the degree to have something to fall back on later on after I retired”</span>. I attended the university part-time because I had a full-time job. <span className="text-blue-600">”As I was planning to retire from my daytime job, I knew I had an opportunity as a licensed therapist to be able to do some work on the side as a licensed therapist”</span></li>                                
                                     </ol>
                                 </li>
                                 <li>What were some of the things of concern for you as you were approaching retirement?
-                                    <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                    <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                         <li><span className="text-blue-600">”When you are planning to retire, a lot of things cross your mind. One of my fears was my health”</span>. For example, I didn’t have blood pressure before but after retirement, my primary Physician found out that my blood pressure was heightened and they put me on medication for that. I don’t know why and after some time again, I had another health challenge. I had terrible back pain and I had to do surgery; a very intrusive back surgery.</li>                                
                                         <li>I am lucky it didn’t affect me mentally. I am still mentally alert and maybe I am mentally alert because I have things, I write. I love to write and I am still writing. <span className="text-blue-600">”I enjoy writing, that’s what keeps me going and has helped me manage the retirement phase. If I don’t have something to do with my life, I will die very quickly”</span>. </li>
                                     </ol>
                                 </li>
                                 <li>Can you talk a little more about your last statement and why that is important for you? Having something to do with your life?
-                                    <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                    <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                         <li>Yes, If I don’t have something that I am addressing myself to at any given time, I don’t think I will last. So, I have something to look forward to or do, that’s what keeps me going. Retirement is like leaving certainty for uncertainty. So one might feel a loss of self or identity. Because you don’t know what will happen. I went through that phase myself.</li>
                                         <li>It is important to me because it is a way to exercise my heart and my brain. Because I know that if you don’t stimulate your brain, it will die. My friends wonder how I manage to still write but I tell them I never stop. It is very important for me to be engaged. To have something doing. If I don’t have something to do or planned out, I’m going to be sick.</li>
                                         <li><span className="text-blue-600">”It has become part of my routine and I do not want to break that routine”</span>. The day I break that routine, death is not too far away from me at that point.</li>
                                     </ol>
                                 </li>
                                 <li>What was that phase like for you?
-                                    <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                    <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                         <li>It was difficult for me. <span className="text-blue-600">”Mental sanity is necessary and people need a way to maintain that as they go into retirement”</span>. Retirement is not something people should go into without planning. There’s a preparation phase. The preparation for retirement is really important and people need to not just be financially prepared for it but also mentally prepared. You have to find out your financial preparedness and also what you want to use all the time you have to do. Else, idle time might take a toll on your mental sanity and sometimes even, your health. <span className="text-blue-600">”All these idea of developing Blood pressure is all because of all the difficulty we put on ourselves that we have not planned very well”</span>. But I went into it with a leap of faith and belief that my health will hold up. I also had a goal to explore travelling as an interest.</li>                                
                                         <li>For me, my time is fully engaged and I have something to look forward to. Only because I started writing.</li>
                                     </ol>
                                 </li>
                                 <li>What would have made your transition into retirement better?
-                                    <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                    <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                         <li>I think I was a little lucky because I am a planner. But I have friends who struggled in the early stages due to a lack of knowledge and adequate planning. There was no way to physically visualize what life going into retirement would be like, but I was taking mental notes and ideas of what I would like to do. Maybe If I had adequately documented these mental notes, the initial difficult phase would have been more bearable. But I went into it with a leap of faith like I said and battled it out till I eventually figured out what my plans for this new life.</li>                                
                                     </ol>
                                 </li>
@@ -281,68 +282,68 @@ function RPlannerProjectPage() {
 
                             <div className={`block h-fit transition-all duration-300 ease-wipe-in-rt ${viewMore? "block" : "hidden"}`}>
                                 <h4 className="text-lg text-blue-600 font-semibold my-4">Interviewee 2: Philip Usman</h4>    
-                                <ol class="w-full space-y-1 list-decimal list-inside pl-2 mb-2 flex flex-col gap-2">
+                                <ol class="w-full space-y-1 list-decimal list-outside pl-2 mb-2 flex flex-col gap-2">
                                     <li>Tell me a little about your background and work history. 
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>I read journalism and got a job with punch soon after graduation. Worked there for a year, quit and became a Canadian resident. I knew I didn’t want to work for someone else. I wanted to do my own business. So from Humber college, I started selling cars to my classmates. That grew into me having to open my own office and that’s how I started a company called Philmen Enterprises in Toronto. I had employees and people working for me. It was a good business.</li>
                                         </ol>
                                     </li>
                                     <li>Tell me about your journey into retirement when you started thinking about retirement
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>For one, at the beginning when I started, I kind of knew what I wanted to do and how long I wanted to be in business for or anything. I love life. I wanna work and at the same time, I want to enjoy the fruits of that labour. So I knew I wanted to do whatever it took to be successful and I knew I wanted to retire at some point. And thankfully, after a long long while, I was able to go into retirement.</li>
                                         </ol>
                                     </li>
                                     <li>How did you feel retiring so early at 40 and what plans did you make towards that, if any?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>For me, I set a goal. My goal was to retire at 40. Even when I was in my 20s, I knew I wanted to retire at 40. Anything past 40, I probably would not have loved it. I love the saying, quit while you are still on top. So, knowing that 40 was looming, I decided to put some things in place. And one of those things was to return to my home country and try to give back. Started a little business there. It was more about giving back. I also thought about what else could I do to sustain myself here in retirement. “<span className="text-blue-600">When you are retired, you don’t want to be retired and not be able to sustain it and then run back to work</span>”. I was fortunate to have been knowledgeable and able to plan ahead because that’s what most people don’t have. They go into retirement and have to worry, about where their next meal is going to come from.</li>
                                         </ol>
                                     </li>
                                     <li>How did you feel about leaving your job once you knew you were retiring?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>There was a lot of attachment like anything. When you have a business and love what you do, the business becomes family. And it’s a question of what am I going to do once I shut it down. It’s going to affect my customers. Some of them trusted me so much that they thought, there must be a way to keep the business going. So before retirement, I tried a little bit to step aside a little and have some of the people I trained to do the business in my stead. But at times, it didn’t feel 100% like the way I would have done it. So at the time, it felt like there was no way I could go into retirement and still keep the business going. <span className="text-blue-600">It was hard but I was ready to make the transition, I had to do what I had to do.</span></li>
                                         </ol>
                                     </li>
                                     <li>How was the transition for you, especially the early stages? How were you feeling at the time?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>Like I said before making the decision in itself, was hard. But the thought of what I would be doing, I had somehow thought about it but honestly, for a little while, I was idle. I was like, what the heck did I just do? <span className="text-blue-600">I had some regrets. But then again, I knew I had to find a way to keep myself busy. I love to see places, I enjoy having things to look forward to. And that’s what I decided to do to channel the idleness.</span></li>
                                         </ol>
                                     </li>
                                     <li>What did you think contributed to the early stage of idleness?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>Because business was all I had done for so long, I didn’t know anything else. So the new reality was strange to me initially. Many times, I would be by myself or I had to wait for them to finish work just so we could all hang out. Other times, I would call them and they would be like, oh, I’m busy. But I understood because I was once like that. I was so passionate about what I was doing. So I respected that they were now putting in their own time. But like they say, <span className="text-blue-600">it’s lonely at the top.</span></li>
                                         </ol>
                                     </li>
                                 </ol>
 
                                 <h4 className="text-lg text-blue-600 font-semibold my-4">Interviewee 3: Eng. Jay</h4>    
-                                <ol class="w-full space-y-1 list-decimal list-inside pl-2 mb-2 flex flex-col gap-2">
+                                <ol class="w-full space-y-1 list-decimal list-outside pl-2 mb-2 flex flex-col gap-2">
                                     <li>What comes to mind when you hear the word retirement?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li><span className="text-blue-600">The first thing that comes to mind is FEAR</span>. Fear in terms of preparation. I think I was lucky. I lived with my uncle and one day, my uncle and his friend, they were both executive directors. They had just retired and were talking, saying “Now that we have retired we can’t be looking for contracts like before and the finances have changed”. This made me wonder if they had not set aside things to keep themselves together. That was a warning for me, so I kept that. So in the course of my career, I was really focused on tangible assets but that was due to my background training. Some people get lucky working with well-established organizations and do not need to put their finances in order because their gratuity covers that. But not too many people are that lucky. There are a lot of people who struggle to adjust to retirement due to the financial capacity to keep up. This is why some people change their age just to keep working, which leads people to do all sorts. <span className="text-blue-600">The fear is when I leave this job, how do I survive?</span></li>
                                         </ol>
                                     </li>
                                     <li>Why do you think people are more focused on the financial aspect of retirement transition?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>So some people think differently and retire for different reasons. Some are forced to retire, some retire for health reasons, and others because they are bored or feel financially confident about their life after retirement. Some are lucky and have good retirement packages but people who still have young kids feel the burden more to keep working and having an income coming in to sustain the family.</li>
                                         </ol>
                                     </li>
                                     <li>Have you given thought to the mental aspect of retirement?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>Yes, which is one of the reasons I have reconsidered my retirement plans severally. Because, the question is, what will I be doing? What will my life be like? <span className="text-blue-600">We have more people who want to keep working after retirement than just stay idle</span>. Because also, staying idle you die early. There’s no movement from morning till night. And of course, as you grow older, there might be some other medical conditions because your mind or body is not actively engaged. My friend who is retired, called me the other day and was complaining of how idle he has become and has been looking for a new outlet to have something that gets him to go out there or engage his time. <span className="text-blue-600">Except for those who do not know what to do, or have ideas or someone to help them plan, everyone wants to keep busy even after retirement.</span></li>
                                         </ol>
                                     </li>
                                     <li>In preparing for retirement partly, what are some measures you put in place?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>Structuring the job as much as I can, making people responsible for some actions and aligning what people need to do is better. As much as possible, taking the pressure off. But for me to go sit down somewhere, that is almost impossible.</li>
                                         </ol>
                                     </li>
                                     <li>How or why do you think health deteriorates in retirement?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li><span className="text-blue-600">Whatever you keep stationary rotten</span>. It’s left for us to know our limits but even if you have all the money you need around you, you stay at home, it is worse. Just get busy, and meet people. Anything to keep you engaged but not overstretch yourself.</li>
                                         </ol>
                                     </li>
                                     <li>What do you think about the transition to retirement?
-                                        <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                                        <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                             <li>I think that area is very very critical here. It is a complete change of lifestyle. You get busy and suddenly you are just staying at home. Some people end up having to support chores because they are not doing anything and their partners feel they have to contribute something at home one way or the other. So transiting is very critical. Some companies know that you are retiring in 5 years time, try to bring some skills to you or ask what your next steps are. But still, if they are not well-grounded or have a picture of what this means, they lose it while trying to adjust to this new lifestyle. Because when you are working, in a structured environment especially, you are pampered. There are some risks you are not exposed to. But the moment you retire, you are exposed to every risk. </li>
                                             <li><span className="text-blue-600">The question is: how are people prepared to handle retirement? And it varies from person to person, from gender to gender.</span></li>
                                             <li>For instance, if a man was contributing a certain amount before retirement but after retirement, he is only able to drop a lesser amount and might even be consistent. All of these form part of transiting which is more about planning here. <span className="text-blue-600">If he doesn’t transit well, he’s going to crash.</span></li>
@@ -358,7 +359,7 @@ function RPlannerProjectPage() {
                             </div>
 
                             <h4 className="text-lg text-blue-600 font-semibold mb-2 mt-4">Key takeaways from interviews</h4>    
-                            <ul ref={hEvaluationRef} class="w-full space-y-1 list-disc list-inside pl-2 flex flex-col gap-2 mb-4">
+                            <ul ref={hEvaluationRef} class="w-full space-y-1 list-disc list-outside pl-2 flex flex-col gap-2 mb-4">
                                 <li>After speaking to all of these users, it was clear that retirement meant different things to different people. Most people mostly dread going into retirement for the lack of financial preparedness. </li>
                                 <li>80% of people say they would rather plan for retirement from day 1 of working. Also, a lot of people do not realize the mental preparedness needed to transition effectively into retirement thereby causing a loss of identity for them when in retirement and some even finding the need to fill their idle time with more meaningful activity. </li>
                                 <li>Others wanted to transition into retirement feeling accomplished but they spent so long dedicating their time to their jobs they don’t have a tangible memory to look back on that gives them this sense of accomplishment with the work they’ve done s far.</li>
@@ -397,7 +398,7 @@ function RPlannerProjectPage() {
                             <h4 ref={ideaRef} className="text-xl font-bold mb-0">Ideas</h4>
                             <p className="text-base mb-4">Then I came up with ideas that could address some of these concerns. </p>
 
-                            <ol class="w-full space-y-1 list-decimal list-inside pl-2 mb-6 flex flex-col gap-2">
+                            <ol class="w-full space-y-1 list-decimal list-outside pl-2 mb-6 flex flex-col gap-2">
                                 <li><span className="text-blue-600">Origami Retirement Advent Calendar Box</span>
                                     <p className="text-base mb-4">This serves to give retirees something to look forward to each calendar day based on the number of days included in the box. Can be used as a way to challenge retirees to find new purpose with daily mini challenges to do to explore their interests. Works as a DIY before retirement or a souvenir/gift given to retiring adults. </p>
                                     <img className="my-4" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675724804/deni.design/r-planner/Origami_1_wfijbq.png" alt="ongami" />
@@ -487,7 +488,7 @@ function RPlannerProjectPage() {
                             <h3 className="text-2xl mt-8 mb-2 alt-font font-bold">Design Iteration</h3>
                             <p className="text-base mb-2">After testing with Mr. Philip, Mr. Jay and Dr. Akintide, here were some of the new ideas and questions raised.</p>
 
-                            <ol class="w-full space-y-1 list-[lower-alpha] list-inside pl-4 flex flex-col gap-1 mt-1">
+                            <ol class="w-full space-y-1 list-[lower-alpha] list-outside pl-4 flex flex-col gap-1 mt-1">
                                 <li><span className="text-blue-600">Ability to download the vision board</span>: Dr. Akintide said he would love to have this pasted somewhere in his bedroom as a way to envision the life he wants going into retirement.</li>
                                 <li><span className="text-blue-600">Ability to see the emoji log as a weekly calendar view</span>: Mr. Philips thought it would be nice to sort of see how his emotions progress in a week, especially at the initial phase of his retirement. Also, to explore adding more “life” to the emojis</li>
                                 <li><span className="text-blue-600">Ability to set goals for each category listed on the vision board</span>: Mr. Philips asked if he would be able to set actionable goals for each category in his vision board for better planning and realization of the board.</li>
@@ -506,7 +507,7 @@ function RPlannerProjectPage() {
                             
 
                             <h3 ref={reflectionRef} className="text-2xl text-blue-600 mb-0 alt-font font-bold">Reflection</h3>
-                            <ul class="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-2 mb-8 flex flex-col gap-4">
+                            <ul class="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt4 md:mt-2 mb-8 flex flex-col gap-4">
                                 <li>The project helped me to learn more about the process of a design thinking framework. Also learned how to empathize with users in a better way and listen for stories that could lead to gems or key insights I didn’t know before.</li>
                                 <li>Testing my designs, I learned that seeking out feedback early helped me design more meaningful solutions. I was able to take feedback and use that to iterate on the designs based on feedback the users provided.</li>
                                 <li>Overall, I learnt that while my ideas might not necessarily solve the entire aspects of the challenge, striving to make at least one part of the experience better in some ways, is always a good strategy</li>

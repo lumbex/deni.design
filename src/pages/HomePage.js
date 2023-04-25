@@ -3,6 +3,9 @@ import { useRef, useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import LandingSection from '../components/sections/LandingSection';
 
+// import { useSpring, animated } from '@react-spring/web';
+
+
 import { ReactComponent as ReactLogo } from "./../assets/deni.design-logo.svg";
 
 
@@ -39,6 +42,8 @@ function HomePage() {
 
   return (
     <div className="home-page">
+
+
         <header className="app-header">
             <nav className={`${sticky ? "fixed w-full z-40 top-0 left-0 shadow": "" } bg-white border-gray-200 px-8 py-2.5`}>
                 <div className="container flex flex-wrap items-center justify-between mx-auto">
@@ -55,17 +60,16 @@ function HomePage() {
                     <ul className="app-nav-ul flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-xs md:font-medium md:border-0 md:bg-white ">
                         {/* <li>activeSection: {activeSection}</li> */}
                         <li onClick={scrollToAbout}>
-                            <Link to="#" className={` ${activeSection === "about"? "text-blue-700": "text-gray-700" } block py-2 pl-3 pr-4 hover:text-blue-700 rounded md:bg-transparent md:p-0 `} aria-current="page">About</Link>
-                            
+                            <Link to="#" className={` ${activeSection === "about"? "underline underline-offset-4": "" } block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 `} aria-current="page">About</Link>
                         </li>
                         <li onClick={scrollToCaseStudies}>
-                            <Link to="#" className={` ${activeSection === "case-study"? "text-blue-700": "text-gray-700" }  block py-2 pl-3 pr-4 hover:text-blue-700 rounded md:bg-transparent md:p-0 `} aria-current="page">Case Studies</Link>
+                            <Link to="#" className={` ${activeSection === "case-study"? "underline underline-offset-4": "" } block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 `} aria-current="page">Case Studies</Link>
                         </li>
                         <li>
-                            <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-gray-700 hover:text-blue-700 rounded md:bg-transparent md:p-0" aria-current="page">Speaking</NavLink>
+                            <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-gray-700 rounded md:bg-transparent md:p-0" aria-current="page">Speaking</NavLink>
                         </li>
                         <li>
-                            <a href="https://drive.google.com/file/d/1H0dRUAl8I9z9BMskwrg9TzjC3H1_UsZI/view?usp=sharing" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resume</a>
+                            <a href="https://drive.google.com/file/d/1H0dRUAl8I9z9BMskwrg9TzjC3H1_UsZI/view?usp=sharing" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-gray-700 rounded md:border-0 md: md:p-0 ">Resume</a>
                         </li>
                     </ul>
                     </div>
@@ -78,15 +82,17 @@ function HomePage() {
         <section ref={aboutRef} className="about-section bg-white">
             <div className="grid max-w-screen-xl px-8 py-16 mx-auto lg:gap-8 xl:gap-0 lg:py-22 lg:grid-cols-12">
                 <div className="mr-auto place-self-center lg:col-span-7">
-                    <p className="max-w-2xl mb-4 font-light text-deniblack lg:mb-8 md:text-lg lg:text-xl text-base">Hello, I’m Deni</p>
-                    <p className="max-w-2xl mb-4 font-bold text-deniblack lg:mb-8 md:text-xl lg:text-xl text-lg">A product designer creating meaningful experiences for end-users </p>
-                    <p className="max-w-2xl mb-4 text-deniblack lg:mb-8 lg:text-xl text-base">I am user-obsessed and aim to drive impacts through the products I ship by making data-driven design decisions.</p>
-                    <p className="max-w-2xl mb-4 text-deniblack lg:mb-8 lg:text-xl text-base">Over the last two years, I have worked in the Fintech space solving challenges for businesses and users to enable borderless payment, personalized banking experiences and access to insights on margins of FX trades.</p>
-                    <p className="max-w-2xl mb-4 text-deniblack lg:mb-8 lg:text-xl text-base">Occasionally, you can find me exploring the next country on my bucket list, reading the next fiction movie or creating lifestyle content on Youtube.</p> 
+                    <p className="max-w-2xl mb-4 font-light text-deniblack lg:mb-8 md:text-lg text-base">Hello, I’m Deni</p>
+                    <p className="max-w-2xl mb-4 font-bold text-deniblack lg:mb-8 md:text-xl text-xl">A product designer creating meaningful experiences for end-users </p>
+                    <p className="max-w-2xl mb-4 text-deniblack lg:mb-8 text-base">I am user-obsessed and aim to drive impacts through the products I ship by making data-driven design decisions.</p>
+                    <p className="max-w-2xl mb-4 text-deniblack lg:mb-8 text-base">Over the last two years, I have worked in the Fintech space solving challenges for businesses and users to enable borderless payment, personalized banking experiences and access to insights on margins of FX trades.</p>
+                    <p className="max-w-2xl mb-4 text-deniblack lg:mb-8 text-base">Occasionally, you can find me exploring the next country on my bucket list, reading the next fiction movie or creating lifestyle content on Youtube.</p>
                 </div>
                 <div className="mt-6 lg:mt-0 lg:col-span-5 flex">
-                    <img className="w-full h-auto" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1680008898/deni.design/deni-port_wvannw.png" alt="Deni Afonja's Profile" />
-                </div>                
+                    <div className="w-full h-auto">
+                        <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1680008898/deni.design/deni-port_wvannw.png" alt="Deni Afonja's Profile" />
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -103,7 +109,9 @@ function HomePage() {
                     </div>
 
                     <div className="flex flex-row-reverse">
-                        <img className="" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675551086/deni.design/my-health/conversational-banking-mockup_kkmidj.svg" alt="conversational banking app" />
+                        <div>
+                            <img className="" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675551086/deni.design/my-health/conversational-banking-mockup_kkmidj.svg" alt="conversational banking app" />
+                        </div>
                     </div>
                 </Link>
 
@@ -118,7 +126,9 @@ function HomePage() {
                     </div>
 
                     <div className="flex flex-row-reverse">
-                        <img className="" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675439440/deni.design/my-health/borderless-payment-mockup_jdiv2q.svg" alt="xcel mockup preview" />
+                        <div>
+                            <img className="" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675439440/deni.design/my-health/borderless-payment-mockup_jdiv2q.svg" alt="xcel mockup preview" />
+                        </div>
                     </div>
                 </Link>
 
@@ -133,7 +143,9 @@ function HomePage() {
                     </div>
 
                     <div className="flex flex-row-reverse">
-                        <img  className="" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675154607/deni.design/grocerist-mockup_q7shuw.svg" alt="Grocerist app" />
+                        <div>
+                            <img  className="" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675154607/deni.design/grocerist-mockup_q7shuw.svg" alt="Grocerist app" />
+                        </div>
                     </div>
                 </Link>
 
@@ -148,7 +160,9 @@ function HomePage() {
                     </div>
 
                     <div className="flex flex-row-reverse">
-                        <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675720076/deni.design/retirement-planner-mockup_a99fpv.svg" alt="R planner app" className="" />
+                        <div>
+                            <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675720076/deni.design/retirement-planner-mockup_a99fpv.svg" alt="R planner app" className="" />
+                        </div>
                     </div>
                 </Link>
             </div>
@@ -163,7 +177,9 @@ function HomePage() {
                 </div>
 
                 <div className="flex flex-row-reverse">
-                    <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675439440/deni.design/my-health/my-health-mockup_lwjn9o.svg" alt="my health app" />
+                    <div>
+                        <img src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675439440/deni.design/my-health/my-health-mockup_lwjn9o.svg" alt="my health app" />
+                    </div>
                 </div>
             </Link>
         </section>

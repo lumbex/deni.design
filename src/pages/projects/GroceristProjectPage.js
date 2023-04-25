@@ -36,25 +36,25 @@ function GroceristProjectPage() {
 
                         {/* Current path: {location} */}
                         <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-xs text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                        <span className="sr-only">Open main menu</span>
-                        <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                            <span className="sr-only">Open main menu</span>
+                            <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                         </button>
                         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                        <ul className="app-nav-ul flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-xs md:font-medium md:border-0 md:bg-white ">
-                            <li>
-                                <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="#" className="block py-2 pl-3 pr-4 text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Case Study</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Speaking</NavLink>
-                            </li>
-                            
-                            <li>
-                                <a href="https://drive.google.com/file/d/1H0dRUAl8I9z9BMskwrg9TzjC3H1_UsZI/view?usp=sharing" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">My Resume</a>
-                            </li>
-                        </ul>
+                            <ul className="app-nav-ul flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-xs md:font-medium md:border-0 md:bg-white ">
+                                <li>
+                                    <NavLink to="/" className="block py-2 pl-3 pr-4 text-gray-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to="#" className="block py-2 pl-3 pr-4 underline underline-offset-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Case Study</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to="/speaking" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Speaking</NavLink>
+                                </li>
+
+                                <li>
+                                    <a href="https://drive.google.com/file/d/1H0dRUAl8I9z9BMskwrg9TzjC3H1_UsZI/view?usp=sharing" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">My Resume</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -148,20 +148,20 @@ function GroceristProjectPage() {
                     <div className="md:p-4 w-full px-2 sm:px-0 sm:w-3/5 mx-auto my-0">
                         <section className="overview flex flex-col md:flex-row gap-6 text-deniblack px-2 md:pl-12 md:pr-8 my-8">
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-sm font-medium text-[#FB8500] mb-2">BACKGROUND</h4>
-                                <h3 className="text-2xl font-bold mb-2">Overview</h3>
+                                <h4 className="text-sm font-medium text-[#FB8500]">BACKGROUND</h4>
+                                <h3 className="text-lg font-bold">Overview</h3>
                                 <p className="text-base mb-4">Grocery shopping can be fun yet so tasking and sometimes, a hassle; with the numerous items people have to pick up from the grocer and a possibility of one forgetting to pick up some. Thereby making multiple trips back to the grocer.  </p>
                                 <p className="text-base mb-8">How then can people adequately and effectively plan this part of the lives by being able to keep track of items needed for their grocery shopping.</p>
                             </div>
                             <div className="w-full md:w-1/2 block">
-                                <h4 className="text-sm font-medium text-[#FB8500] mb-2">ROLE & DURATION</h4>
-                                <h3 className="text-2xl font-bold mb-2">Role: Sole Product Designer</h3>
+                                <h4 className="text-sm font-medium text-[#FB8500]">ROLE & DURATION</h4>
+                                <h3 className="text-lg font-bold">Role: Sole Product Designer</h3>
                                 <p className="text-base mb-6">I was responsible for:  User interface design and Prototyping</p>
 
-                                <h3 className="text-2xl font-bold mb-2">Team</h3>
+                                <h3 className="text-lg font-bold">Team</h3>
                                 <p className="text-base mb-6">Personal Project.</p>
 
-                                <h3 className="text-2xl font-bold mb-2">Duration</h3>
+                                <h3 className="text-lg font-bold">Duration</h3>
                                 <p className="text-base mb-6">
                                     1 week
                                 </p>
@@ -198,7 +198,7 @@ function GroceristProjectPage() {
                             <div className="side-by-side content-center flex flex-col md:flex-row gap-6 md:gap-10 text-deniblack px-2 md:pl-12 md:pr-[20%] mt-8">
                                 <div className="w-full md:w-1/2 block">
                                     <h4 className="text-xl mb-0">User goals</h4>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-3 md:pl-4 mt4 md:mt-4 mb-8 flex flex-col gap-4">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-3 md:pl-4 mt4 md:mt-4 mb-8 flex flex-col gap-4">
                                         <li>Create and manage multiple lists.</li>
                                         <li>Share list with friends and family.</li>
                                         <li>Create and manage budget for each list.</li>
@@ -206,7 +206,7 @@ function GroceristProjectPage() {
                                 </div>
                                 <div className="w-full md:w-1/2 flex flex-col justify-center"> 
                                     <h4 className="text-xl mb-0">User tasks</h4>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-3 md:pl-4 mt4 md:mt-4 mb-8 flex flex-col gap-4">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-3 md:pl-4 mt4 md:mt-4 mb-8 flex flex-col gap-4">
                                         <li>Create new list and enter items name/scan barcode, quantity, price etc. to add item to list.</li>
                                         <li>Use spendings to get insight if she’s still within budget by seeing amount spent on shopping.</li>
                                         <li>Use share link to invite friends and family to shop together.</li>
@@ -243,7 +243,7 @@ function GroceristProjectPage() {
                                 <div className="score-card rounded border border-solid border-[#E9CFB1] px-6 py-8 h-full">
                                     <h4 className="text-xl text-[#FB8500] mb-4">Out of Milk</h4>
                                     <p className="text-base text-[#FB8500]">Strength</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
                                         <li>Can scan item barcodes for better in-shop experience</li>
                                         <li>Ability to add price to list items</li>
                                         <li>Ability to share to family and friends</li>
@@ -251,7 +251,7 @@ function GroceristProjectPage() {
                                     </ul>
                                 
                                     <p className="text-base text-[#FB8500]">Weaknesses</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
                                         <li>Not entirely focused on grocery list making</li>
                                         <li>Manual calculation of total items price</li>
                                         <li>Can get overly complicated for someone looking for a simple grocery list application</li>
@@ -264,7 +264,7 @@ function GroceristProjectPage() {
                                 <div className="score-card rounded border border-solid border-[#E9CFB1] px-6 py-8 h-full">
                                     <h4 className="text-xl text-[#FB8500] mb-4">Bring!</h4>
                                     <p className="text-base text-[#FB8500]">Strength</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
                                         <li>Can create multiple lists for different needs</li>
                                         <li>Ability to add item image</li>
                                         <li>Access to recipe for meal preparation</li>
@@ -272,7 +272,7 @@ function GroceristProjectPage() {
                                     </ul>
                                 
                                     <p className="text-base text-[#FB8500]">Weaknesses</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
                                         <li>Cannot include item price</li>
                                         <li>Can get overly complicated for someone looking for a simple grocery list application</li>
                                         <li>Can not help with monthly shopping budgeting</li>
@@ -286,7 +286,7 @@ function GroceristProjectPage() {
                                 <div className="score-card rounded border border-solid border-[#E9CFB1] px-6 py-8 h-full">
                                     <h4 className="text-xl text-[#FB8500] mb-4">AnyList </h4>
                                     <p className="text-base text-[#FB8500]">Strength</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
                                         <li>Great UX with autocompete for search feature</li>
                                         <li>Automatic item categorization</li>
                                         <li>Good for meal planning <br /></li>
@@ -294,7 +294,7 @@ function GroceristProjectPage() {
                                     </ul>
                                 
                                     <p className="text-base text-[#FB8500]">Weaknesses</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
                                         <li>Not entirely focused on grocery list making</li>
                                         <li>Can only share list via email to family and friends</li>
                                         <li>Can get overly complicated for someone looking for a simple grocery list application</li>
@@ -307,7 +307,7 @@ function GroceristProjectPage() {
                                 <div className="score-card rounded border border-solid border-[#E9CFB1] px-6 py-8 h-full">
                                     <h4 className="text-xl text-[#FB8500] mb-4">Our Groceries</h4>
                                     <p className="text-base text-[#FB8500]">Strength</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-2 md:pl-2 mt-4 mb-8 flex flex-col gap-2">
                                         <li>Can scan item barcode while in store</li>
                                         <li>Automatic item categorization</li>
                                         <li>Good for meal planning</li>
@@ -316,7 +316,7 @@ function GroceristProjectPage() {
                                     </ul>
                                 
                                     <p className="text-base text-[#FB8500]">Weaknesses</p>
-                                    <ul className="w-full space-y-1 list-disc list-inside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
+                                    <ul className="w-full space-y-1 list-disc list-outside pl-2 md:pl-2 mt-4 flex flex-col gap-2">
                                         <li>Cannot include item price</li>
                                         <li>Can not help with monthly shopping budgeting</li>
                                     </ul>
@@ -327,14 +327,14 @@ function GroceristProjectPage() {
                         <section className="story flex flex-col text-deniblack font-base px-2 md:px-8 overflow-x-hidden">    
                             <h2 ref={pPlanningRef} className="text-3xl mt-4 mb-2 alt-font font-bold">Ideation</h2>
                             <p className="text-base mb-4">Before brainstorming ideas, I started out with identifying 3 key components to help me  articulate Sara’s journey and get the optimum user flow.</p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-4 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt4 md:mt-8 mb-4 flex flex-col gap-4">
                                 <li><span className="font-bold">Who is the user?</span> <br />Sara, a shopper who wants to have a list to keep track of grocery items she needs to buy at the grocery store without going over her budget for these items.</li>
                                 <li ref={pPlanningRef}><span className="font-bold">What is the user’s goal?</span> <br />I framed this using a <span className="text-[#FF8000]">Point of view</span> otherwise known as a <span className="text-[#FF8000]">Problem statement</span>.</li>
                             </ul>
 
                             <img ref={povRef} className="my-6" src="https://res.cloudinary.com/cloud-web-assets/image/upload/v1675699662/deni.design/grocerist/groce-ideatee_d4ya1i.png" alt="ideation" />
 
-                            <ul ref={hmwsRef} className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 mb-8 flex flex-col gap-4">
+                            <ul ref={hmwsRef} className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt4 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">What are the steps the user needs to take to achieve this goal?</span> <br />I framed a “How Might We” question to help me properly brainstorm ideas to create a task flow for the goal previously defined.</li>
                             </ul>
 
@@ -348,7 +348,7 @@ function GroceristProjectPage() {
 
 
                             <h3 className="text-xl font-semibold mb-4">Assumptions</h3>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li>Sara is tech savvy</li>
                                 <li>Sara has good internet connectivity. So she can access the app anytime </li>
                                 <li>Sara knows the names of items she wants to shop for and her phone can scan the items</li>
@@ -358,14 +358,14 @@ function GroceristProjectPage() {
 
                             <h3 className="text-xl font-semibold mb-4">Tradeoffs</h3>
                             <p className="text-base mb-4">In order to help sara focus on the task in achieving her goals, these trade-offs were made: </p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Whoever Sara shares a list with does not need to login or create an account</span> <br />The main aim of Sara sharing a list is for the person to be able to view it, hence a priority at the time. This can be achieved without the person having an account with Grocerist. Without having Grocerist, the user can view the list at the minimum soon as a link is shared.</li>
                                 <li><span className="font-bold">Push notifications</span> <br />Allowing Sara to receive push notifications when items on her list are due for buying based on supply level. However, due to time constraints, this wasn’t explored. And she can still achieve her goals nonetheless.</li>
                             </ul>
 
                             <h3 className="text-xl font-bold mb-4">Constraints</h3>
                             <p className="text-base mb-4">In order to help me have one linear direction for the user flow and focus on achieving the main goals, I worked with the following constraints. But these can be added for later updates. </p>
-                            <ul className="w-full space-y-1 list-disc list-inside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
+                            <ul className="w-full space-y-1 list-disc list-outside pl-6 md:pl-10 mt4 md:mt-8 mb-8 flex flex-col gap-4">
                                 <li><span className="font-bold">Adding items in a roll </span>- because Sara’s main goal is to create a list of items as quickly as possible, I made this the apparent task. While leaving room for customization with the edit button.</li>
                                 <li><span className="font-bold">There’s no ability to compare prices </span>- this can be gotten later from asking users what stores they shop from and comparing across these stores.</li>
                             </ul>
